@@ -1,0 +1,121 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AutoPoint
+build_property.RootNamespace = AutoPoint
+build_property.ProjectDir = C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/s_dob/OneDrive/Работен плот/Projects/AutoPointFull/AutoPoint/AutoPoint/Views/Email/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1haWxcQ29udGFjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/s_dob/OneDrive/Работен плот/Projects/AutoPointFull/AutoPoint/AutoPoint/Views/Email/ForgotenPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1haWxcRm9yZ290ZW5QYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/s_dob/OneDrive/Работен плот/Projects/AutoPointFull/AutoPoint/AutoPoint/Views/Home/DTCReader.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEVENSZWFkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/s_dob/OneDrive/Работен плот/Projects/AutoPointFull/AutoPoint/AutoPoint/Views/Home/EngineSpecifications.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFbmdpbmVTcGVjaWZpY2F0aW9ucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/s_dob/OneDrive/Работен плот/Projects/AutoPointFull/AutoPoint/AutoPoint/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/s_dob/OneDrive/Работен плот/Projects/AutoPointFull/AutoPoint/AutoPoint/Views/Order/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ2hlY2tvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/s_dob/OneDrive/Работен плот/Projects/AutoPointFull/AutoPoint/AutoPoint/Views/Order/Confirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ29uZmlybWF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/s_dob/OneDrive/Работен плот/Projects/AutoPointFull/AutoPoint/AutoPoint/Views/Order/PayOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcUGF5T3JkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/s_dob/OneDrive/Работен плот/Projects/AutoPointFull/AutoPoint/AutoPoint/Views/Product/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/s_dob/OneDrive/Работен плот/Projects/AutoPointFull/AutoPoint/AutoPoint/Views/Product/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/s_dob/OneDrive/Работен плот/Projects/AutoPointFull/AutoPoint/AutoPoint/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/s_dob/OneDrive/Работен плот/Projects/AutoPointFull/AutoPoint/AutoPoint/Views/Product/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/s_dob/OneDrive/Работен плот/Projects/AutoPointFull/AutoPoint/AutoPoint/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/s_dob/OneDrive/Работен плот/Projects/AutoPointFull/AutoPoint/AutoPoint/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/s_dob/OneDrive/Работен плот/Projects/AutoPointFull/AutoPoint/AutoPoint/Views/User/AdminPanel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxBZG1pblBhbmVsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/s_dob/OneDrive/Работен плот/Projects/AutoPointFull/AutoPoint/AutoPoint/Views/User/cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxjYXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/s_dob/OneDrive/Работен плот/Projects/AutoPointFull/AutoPoint/AutoPoint/Views/User/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDaGFuZ2VQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/s_dob/OneDrive/Работен плот/Projects/AutoPointFull/AutoPoint/AutoPoint/Views/User/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/s_dob/OneDrive/Работен плот/Projects/AutoPointFull/AutoPoint/AutoPoint/Views/User/EditProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxFZGl0UHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/s_dob/OneDrive/Работен плот/Projects/AutoPointFull/AutoPoint/AutoPoint/Views/User/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/s_dob/OneDrive/Работен плот/Projects/AutoPointFull/AutoPoint/AutoPoint/Views/User/OrdersDisplay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxPcmRlcnNEaXNwbGF5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/s_dob/OneDrive/Работен плот/Projects/AutoPointFull/AutoPoint/AutoPoint/Views/User/ProductsDisplay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxQcm9kdWN0c0Rpc3BsYXkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/s_dob/OneDrive/Работен плот/Projects/AutoPointFull/AutoPoint/AutoPoint/Views/User/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/s_dob/OneDrive/Работен плот/Projects/AutoPointFull/AutoPoint/AutoPoint/Views/User/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/s_dob/OneDrive/Работен плот/Projects/AutoPointFull/AutoPoint/AutoPoint/Views/User/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/s_dob/OneDrive/Работен плот/Projects/AutoPointFull/AutoPoint/AutoPoint/Views/User/UsersDisplay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVc2Vyc0Rpc3BsYXkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

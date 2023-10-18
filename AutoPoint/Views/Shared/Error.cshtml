@@ -1,0 +1,44 @@
+﻿@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer localizer
+@{
+    ViewBag.Title = "Forgoten Email";
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Start Banner Area -->
+<section class="banner-area organic-breadcrumb">
+    <div class="container">
+        <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+            <div class="col-first">
+                <h1>@localizer["Forgoten Password"]</h1>
+                <nav class="d-flex align-items-center">
+                    <a href="/Home/Index">@localizer["Home"]<span class="lnr lnr-arrow-right"></span></a>
+                    <a href="/User/Login">@localizer["Login"]<span class="lnr lnr-arrow-right"></a>
+                    <a href="/Email/ForgotenPassword">@localizer["Forgoten Password"]</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Banner Area -->
+<!--================Tracking Box Area =================-->
+<section class="tracking_box_area section_gap">
+    <div class="container">
+        <div class="tracking_box_inner">
+            <center>
+                <p>
+                    @localizer["Enter you'r email so we can send you a link to change your password."]
+                </p>
+                <form class="row tracking_form" action="/Email/ForgotenPassword" method="post" novalidate="novalidate">
+                    <div class="col-md-12 form-group">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="@localizer["Billing Email Address"]" onfocus="this.placeholder = ''" onblur="this.placeholder = '@localizer["Billing Email Address"]'">
+                    </div>
+                    <div class="col-md-12 form-group">
+                        <button type="submit" value="submit" class="primary-btn">@localizer["Send"]</button>
+                    </div>
+                </form>
+            </center>
+            
+        </div>
+    </div>
+</section>
+<!--================End Tracking Box Area =================-->

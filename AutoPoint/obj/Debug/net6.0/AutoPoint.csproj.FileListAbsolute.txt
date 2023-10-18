@@ -1,0 +1,539 @@
+C:\Users\s_dob\OneDrive\Работен плот\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.csproj.AssemblyReference.cache
+C:\Users\s_dob\OneDrive\Работен плот\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\s_dob\OneDrive\Работен плот\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.AssemblyInfoInputs.cache
+C:\Users\s_dob\OneDrive\Работен плот\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.AssemblyInfo.cs
+C:\Users\s_dob\OneDrive\Работен плот\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.csproj.CoreCompileInputs.cache
+C:\Users\s_dob\OneDrive\Работен плот\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\s_dob\OneDrive\Работен плот\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.RazorAssemblyInfo.cache
+C:\Users\s_dob\OneDrive\Работен плот\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.RazorAssemblyInfo.cs
+C:\Users\s_dob\OneDrive\Работен плот\AutoPoint\AutoPoint\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\s_dob\OneDrive\Работен плот\AutoPoint\AutoPoint\bin\Debug\net6.0\appsettings.json
+C:\Users\s_dob\OneDrive\Работен плот\AutoPoint\AutoPoint\bin\Debug\net6.0\AutoPoint.staticwebassets.runtime.json
+C:\Users\s_dob\OneDrive\Работен плот\AutoPoint\AutoPoint\bin\Debug\net6.0\AutoPoint.exe
+C:\Users\s_dob\OneDrive\Работен плот\AutoPoint\AutoPoint\bin\Debug\net6.0\AutoPoint.deps.json
+C:\Users\s_dob\OneDrive\Работен плот\AutoPoint\AutoPoint\bin\Debug\net6.0\AutoPoint.runtimeconfig.json
+C:\Users\s_dob\OneDrive\Работен плот\AutoPoint\AutoPoint\bin\Debug\net6.0\AutoPoint.dll
+C:\Users\s_dob\OneDrive\Работен плот\AutoPoint\AutoPoint\bin\Debug\net6.0\ref\AutoPoint.dll
+C:\Users\s_dob\OneDrive\Работен плот\AutoPoint\AutoPoint\bin\Debug\net6.0\AutoPoint.pdb
+C:\Users\s_dob\OneDrive\Работен плот\AutoPoint\AutoPoint\bin\Debug\net6.0\common.dll
+C:\Users\s_dob\OneDrive\Работен плот\AutoPoint\AutoPoint\bin\Debug\net6.0\common.pdb
+C:\Users\s_dob\OneDrive\Работен плот\AutoPoint\AutoPoint\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\s_dob\OneDrive\Работен плот\AutoPoint\AutoPoint\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\s_dob\OneDrive\Работен плот\AutoPoint\AutoPoint\obj\Debug\net6.0\scopedcss\bundle\AutoPoint.styles.css
+C:\Users\s_dob\OneDrive\Работен плот\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.csproj.CopyComplete
+C:\Users\s_dob\OneDrive\Работен плот\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.dll
+C:\Users\s_dob\OneDrive\Работен плот\AutoPoint\AutoPoint\obj\Debug\net6.0\ref\AutoPoint.dll
+C:\Users\s_dob\OneDrive\Работен плот\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.pdb
+C:\Users\s_dob\OneDrive\Работен плот\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.genruntimeconfig.cache
+C:\Users\s_dob\OneDrive\Работен плот\AutoPoint\AutoPoint\bin\Debug\net6.0\common.dll.config
+C:\Users\User\Desktop\Samuil Dobrinski 12a\AutoPoint\AutoPoint\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\User\Desktop\Samuil Dobrinski 12a\AutoPoint\AutoPoint\bin\Debug\net6.0\appsettings.json
+C:\Users\User\Desktop\Samuil Dobrinski 12a\AutoPoint\AutoPoint\bin\Debug\net6.0\AutoPoint.staticwebassets.runtime.json
+C:\Users\User\Desktop\Samuil Dobrinski 12a\AutoPoint\AutoPoint\bin\Debug\net6.0\AutoPoint.exe
+C:\Users\User\Desktop\Samuil Dobrinski 12a\AutoPoint\AutoPoint\bin\Debug\net6.0\AutoPoint.deps.json
+C:\Users\User\Desktop\Samuil Dobrinski 12a\AutoPoint\AutoPoint\bin\Debug\net6.0\AutoPoint.runtimeconfig.json
+C:\Users\User\Desktop\Samuil Dobrinski 12a\AutoPoint\AutoPoint\bin\Debug\net6.0\AutoPoint.dll
+C:\Users\User\Desktop\Samuil Dobrinski 12a\AutoPoint\AutoPoint\bin\Debug\net6.0\AutoPoint.pdb
+C:\Users\User\Desktop\Samuil Dobrinski 12a\AutoPoint\AutoPoint\bin\Debug\net6.0\common.dll
+C:\Users\User\Desktop\Samuil Dobrinski 12a\AutoPoint\AutoPoint\bin\Debug\net6.0\EntityFramework.dll
+C:\Users\User\Desktop\Samuil Dobrinski 12a\AutoPoint\AutoPoint\bin\Debug\net6.0\common.pdb
+C:\Users\User\Desktop\Samuil Dobrinski 12a\AutoPoint\AutoPoint\bin\Debug\net6.0\common.dll.config
+C:\Users\User\Desktop\Samuil Dobrinski 12a\AutoPoint\AutoPoint\bin\Debug\net6.0\EntityFramework.xml
+C:\Users\User\Desktop\Samuil Dobrinski 12a\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Samuil Dobrinski 12a\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Samuil Dobrinski 12a\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Samuil Dobrinski 12a\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.AssemblyInfo.cs
+C:\Users\User\Desktop\Samuil Dobrinski 12a\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Samuil Dobrinski 12a\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\Desktop\Samuil Dobrinski 12a\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.RazorAssemblyInfo.cache
+C:\Users\User\Desktop\Samuil Dobrinski 12a\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.RazorAssemblyInfo.cs
+C:\Users\User\Desktop\Samuil Dobrinski 12a\AutoPoint\AutoPoint\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\User\Desktop\Samuil Dobrinski 12a\AutoPoint\AutoPoint\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\User\Desktop\Samuil Dobrinski 12a\AutoPoint\AutoPoint\obj\Debug\net6.0\scopedcss\bundle\AutoPoint.styles.css
+C:\Users\User\Desktop\Samuil Dobrinski 12a\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.csproj.CopyComplete
+C:\Users\User\Desktop\Samuil Dobrinski 12a\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.dll
+C:\Users\User\Desktop\Samuil Dobrinski 12a\AutoPoint\AutoPoint\obj\Debug\net6.0\refint\AutoPoint.dll
+C:\Users\User\Desktop\Samuil Dobrinski 12a\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.pdb
+C:\Users\User\Desktop\Samuil Dobrinski 12a\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.genruntimeconfig.cache
+C:\Users\User\Desktop\Samuil Dobrinski 12a\AutoPoint\AutoPoint\obj\Debug\net6.0\ref\AutoPoint.dll
+E:\AutoPoint\AutoPoint\bin\Debug\net6.0\appsettings.Development.json
+E:\AutoPoint\AutoPoint\bin\Debug\net6.0\appsettings.json
+E:\AutoPoint\AutoPoint\bin\Debug\net6.0\AutoPoint.staticwebassets.runtime.json
+E:\AutoPoint\AutoPoint\bin\Debug\net6.0\AutoPoint.exe
+E:\AutoPoint\AutoPoint\bin\Debug\net6.0\AutoPoint.deps.json
+E:\AutoPoint\AutoPoint\bin\Debug\net6.0\AutoPoint.runtimeconfig.json
+E:\AutoPoint\AutoPoint\bin\Debug\net6.0\AutoPoint.dll
+E:\AutoPoint\AutoPoint\bin\Debug\net6.0\AutoPoint.pdb
+E:\AutoPoint\AutoPoint\bin\Debug\net6.0\EntityFramework.dll
+E:\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.csproj.AssemblyReference.cache
+E:\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.GeneratedMSBuildEditorConfig.editorconfig
+E:\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.AssemblyInfoInputs.cache
+E:\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.AssemblyInfo.cs
+E:\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.csproj.CoreCompileInputs.cache
+E:\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.MvcApplicationPartsAssemblyInfo.cache
+E:\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.RazorAssemblyInfo.cache
+E:\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.RazorAssemblyInfo.cs
+E:\AutoPoint\AutoPoint\obj\Debug\net6.0\staticwebassets.build.json
+E:\AutoPoint\AutoPoint\obj\Debug\net6.0\staticwebassets.development.json
+E:\AutoPoint\AutoPoint\obj\Debug\net6.0\scopedcss\bundle\AutoPoint.styles.css
+E:\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.csproj.CopyComplete
+E:\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.dll
+E:\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.pdb
+E:\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.genruntimeconfig.cache
+E:\AutoPoint\AutoPoint\obj\Debug\net6.0\ref\AutoPoint.dll
+D:\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.csproj.AssemblyReference.cache
+D:\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.GeneratedMSBuildEditorConfig.editorconfig
+D:\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.AssemblyInfoInputs.cache
+D:\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.AssemblyInfo.cs
+D:\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.csproj.CoreCompileInputs.cache
+D:\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.MvcApplicationPartsAssemblyInfo.cache
+D:\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.RazorAssemblyInfo.cache
+D:\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.RazorAssemblyInfo.cs
+D:\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.dll
+D:\AutoPoint\AutoPoint\obj\Debug\net6.0\ref\AutoPoint.dll
+D:\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.pdb
+D:\AutoPoint\AutoPoint\bin\Debug\net6.0\appsettings.Development.json
+D:\AutoPoint\AutoPoint\bin\Debug\net6.0\appsettings.json
+D:\AutoPoint\AutoPoint\bin\Debug\net6.0\AutoPoint.staticwebassets.runtime.json
+D:\AutoPoint\AutoPoint\bin\Debug\net6.0\AutoPoint.exe
+D:\AutoPoint\AutoPoint\bin\Debug\net6.0\AutoPoint.deps.json
+D:\AutoPoint\AutoPoint\bin\Debug\net6.0\AutoPoint.runtimeconfig.json
+D:\AutoPoint\AutoPoint\bin\Debug\net6.0\AutoPoint.dll
+D:\AutoPoint\AutoPoint\bin\Debug\net6.0\AutoPoint.pdb
+D:\AutoPoint\AutoPoint\bin\Debug\net6.0\common.dll
+D:\AutoPoint\AutoPoint\bin\Debug\net6.0\EntityFramework.dll
+D:\AutoPoint\AutoPoint\bin\Debug\net6.0\common.pdb
+D:\AutoPoint\AutoPoint\bin\Debug\net6.0\common.dll.config
+D:\AutoPoint\AutoPoint\obj\Debug\net6.0\staticwebassets.build.json
+D:\AutoPoint\AutoPoint\obj\Debug\net6.0\staticwebassets.development.json
+D:\AutoPoint\AutoPoint\obj\Debug\net6.0\scopedcss\bundle\AutoPoint.styles.css
+D:\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.csproj.CopyComplete
+D:\AutoPoint\AutoPoint\obj\Debug\net6.0\refint\AutoPoint.dll
+D:\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.genruntimeconfig.cache
+C:\Users\User\Desktop\AutoPoint\AutoPoint\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\User\Desktop\AutoPoint\AutoPoint\bin\Debug\net6.0\appsettings.json
+C:\Users\User\Desktop\AutoPoint\AutoPoint\bin\Debug\net6.0\AutoPoint.staticwebassets.runtime.json
+C:\Users\User\Desktop\AutoPoint\AutoPoint\bin\Debug\net6.0\AutoPoint.exe
+C:\Users\User\Desktop\AutoPoint\AutoPoint\bin\Debug\net6.0\AutoPoint.deps.json
+C:\Users\User\Desktop\AutoPoint\AutoPoint\bin\Debug\net6.0\AutoPoint.runtimeconfig.json
+C:\Users\User\Desktop\AutoPoint\AutoPoint\bin\Debug\net6.0\AutoPoint.dll
+C:\Users\User\Desktop\AutoPoint\AutoPoint\bin\Debug\net6.0\AutoPoint.pdb
+C:\Users\User\Desktop\AutoPoint\AutoPoint\bin\Debug\net6.0\common.dll
+C:\Users\User\Desktop\AutoPoint\AutoPoint\bin\Debug\net6.0\EntityFramework.dll
+C:\Users\User\Desktop\AutoPoint\AutoPoint\bin\Debug\net6.0\common.pdb
+C:\Users\User\Desktop\AutoPoint\AutoPoint\bin\Debug\net6.0\common.dll.config
+C:\Users\User\Desktop\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.AssemblyInfo.cs
+C:\Users\User\Desktop\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\Desktop\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.RazorAssemblyInfo.cache
+C:\Users\User\Desktop\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.RazorAssemblyInfo.cs
+C:\Users\User\Desktop\AutoPoint\AutoPoint\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\User\Desktop\AutoPoint\AutoPoint\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\User\Desktop\AutoPoint\AutoPoint\obj\Debug\net6.0\scopedcss\bundle\AutoPoint.styles.css
+C:\Users\User\Desktop\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.csproj.CopyComplete
+C:\Users\User\Desktop\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.dll
+C:\Users\User\Desktop\AutoPoint\AutoPoint\obj\Debug\net6.0\refint\AutoPoint.dll
+C:\Users\User\Desktop\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.pdb
+C:\Users\User\Desktop\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.genruntimeconfig.cache
+C:\Users\User\Desktop\AutoPoint\AutoPoint\obj\Debug\net6.0\ref\AutoPoint.dll
+C:\Users\User\Desktop\AutoPoint\AutoPoint\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\User\Desktop\AutoPoint\AutoPoint\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\User\Desktop\AutoPoint\AutoPoint\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\User\Desktop\AutoPoint\AutoPoint\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User\Desktop\AutoPoint\AutoPoint\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\User\Desktop\AutoPoint\AutoPoint\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\User\Desktop\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\User\Desktop\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\User\Desktop\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\User\Desktop\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User\Desktop\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\User\Desktop\AutoPoint\AutoPoint\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\User\Desktop\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\User\Desktop\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\User\Desktop\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\User\Desktop\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\User\Desktop\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\User\Desktop\AutoPoint\AutoPoint\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\AutoPoint\AutoPoint\bin\Debug\net6.0\System.CodeDom.dll
+D:\AutoPoint\AutoPoint\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+D:\AutoPoint\AutoPoint\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\AutoPoint\AutoPoint\bin\Debug\net6.0\System.CodeDom.dll
+D:\AutoPoint\AutoPoint\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\AutoPoint\AutoPoint\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\AutoPoint\AutoPoint\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\AutoPoint\AutoPoint\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\AutoPoint\AutoPoint\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\AutoPoint\AutoPoint\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\AutoPoint\AutoPoint\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+E:\AutoPoint\AutoPoint\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\AutoPoint\AutoPoint\bin\Debug\net6.0\System.CodeDom.dll
+E:\AutoPoint\AutoPoint\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\AutoPoint\AutoPoint\bin\Debug\net6.0\System.Data.SqlClient.dll
+E:\AutoPoint\AutoPoint\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\AutoPoint\AutoPoint\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\AutoPoint\AutoPoint\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\AutoPoint\AutoPoint\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+E:\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+E:\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+E:\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\s_dob\OneDrive\Работен плот\AutoPoint\AutoPoint\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+C:\Users\s_dob\OneDrive\Работен плот\AutoPoint\AutoPoint\bin\Debug\net6.0\EntityFramework.dll
+C:\Users\s_dob\OneDrive\Работен плот\AutoPoint\AutoPoint\bin\Debug\net6.0\FluentEmail.Core.dll
+C:\Users\s_dob\OneDrive\Работен плот\AutoPoint\AutoPoint\bin\Debug\net6.0\FluentEmail.Smtp.dll
+C:\Users\s_dob\OneDrive\Работен плот\AutoPoint\AutoPoint\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\s_dob\OneDrive\Работен плот\AutoPoint\AutoPoint\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\s_dob\OneDrive\Работен плот\AutoPoint\AutoPoint\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\s_dob\OneDrive\Работен плот\AutoPoint\AutoPoint\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\s_dob\OneDrive\Работен плот\AutoPoint\AutoPoint\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\s_dob\OneDrive\Работен плот\AutoPoint\AutoPoint\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\s_dob\OneDrive\Работен плот\AutoPoint\AutoPoint\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\s_dob\OneDrive\Работен плот\AutoPoint\AutoPoint\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\s_dob\OneDrive\Работен плот\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\s_dob\OneDrive\Работен плот\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\s_dob\OneDrive\Работен плот\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\s_dob\OneDrive\Работен плот\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\s_dob\OneDrive\Работен плот\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\s_dob\OneDrive\Работен плот\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\s_dob\OneDrive\Работен плот\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\s_dob\OneDrive\Работен плот\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\s_dob\OneDrive\Работен плот\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\s_dob\OneDrive\Работен плот\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\s_dob\OneDrive\Работен плот\AutoPoint\AutoPoint\bin\Debug\net6.0\libman.json
+D:\AutoPoint\AutoPoint\bin\Debug\net6.0\libman.json
+E:\AutoPoint\AutoPoint\bin\Debug\net6.0\libman.json
+E:\AutoPoint\AutoPoint\bin\Debug\net6.0\ref\AutoPoint.dll
+E:\AutoPoint\AutoPoint\bin\Debug\net6.0\Scrypt.dll
+E:\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\AutoPoint\AutoPoint\bin\Debug\net6.0\Scrypt.dll
+D:\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Migrations.initial.resources
+E:\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.csproj.GenerateResource.cache
+E:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\appsettings.Development.json
+E:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\appsettings.json
+E:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\libman.json
+E:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\AutoPoint.staticwebassets.runtime.json
+E:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\AutoPoint.exe
+E:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\AutoPoint.deps.json
+E:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\AutoPoint.runtimeconfig.json
+E:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\AutoPoint.dll
+E:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\ref\AutoPoint.dll
+E:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\AutoPoint.pdb
+E:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+E:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\EntityFramework.dll
+E:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\Scrypt.dll
+E:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\System.CodeDom.dll
+E:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\System.Data.SqlClient.dll
+E:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+E:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+E:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+E:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.csproj.AssemblyReference.cache
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.csproj.GenerateResource.cache
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.GeneratedMSBuildEditorConfig.editorconfig
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.AssemblyInfoInputs.cache
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.AssemblyInfo.cs
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.csproj.CoreCompileInputs.cache
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.MvcApplicationPartsAssemblyInfo.cache
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.RazorAssemblyInfo.cache
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.RazorAssemblyInfo.cs
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\staticwebassets.build.json
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\staticwebassets.development.json
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\scopedcss\bundle\AutoPoint.styles.css
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.csproj.CopyComplete
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.dll
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\ref\AutoPoint.dll
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.pdb
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.genruntimeconfig.cache
+E:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\appsettings.Development.json
+D:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\appsettings.json
+D:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\libman.json
+D:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\AutoPoint.staticwebassets.runtime.json
+D:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\AutoPoint.exe
+D:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\AutoPoint.deps.json
+D:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\AutoPoint.runtimeconfig.json
+D:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\AutoPoint.dll
+D:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\AutoPoint.pdb
+D:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+D:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\EntityFramework.dll
+D:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\Scrypt.dll
+D:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\System.CodeDom.dll
+D:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.csproj.AssemblyReference.cache
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Migrations.initial.resources
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.csproj.GenerateResource.cache
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.GeneratedMSBuildEditorConfig.editorconfig
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.AssemblyInfoInputs.cache
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.AssemblyInfo.cs
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.csproj.CoreCompileInputs.cache
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.MvcApplicationPartsAssemblyInfo.cache
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.RazorAssemblyInfo.cache
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.RazorAssemblyInfo.cs
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\staticwebassets.build.json
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\staticwebassets.development.json
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\scopedcss\bundle\AutoPoint.styles.css
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.csproj.CopyComplete
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.dll
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\refint\AutoPoint.dll
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.pdb
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.genruntimeconfig.cache
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\ref\AutoPoint.dll
+E:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\bg\AutoPoint.resources.dll
+E:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\en\AutoPoint.resources.dll
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Home.Index.bg.resources
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Home.Index.en.resources
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\bg\AutoPoint.resources.dll
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\en\AutoPoint.resources.dll
+D:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\bg\AutoPoint.resources.dll
+D:\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\en\AutoPoint.resources.dll
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Home.Index.bg.resources
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Home.Index.en.resources
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\bg\AutoPoint.resources.dll
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\en\AutoPoint.resources.dll
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Shared._Layout.bg.resources
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Shared._Layout.en.resources
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Home.DTCReader.bg.resources
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Home.DTCReader.en.resources
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Home.DTCReader.bg.resources
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Home.DTCReader.en.resources
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Home.EngineSpecifications.bg.resources
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Home.EngineSpecifications.en.resources
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Shared._Layout.bg.resources
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Shared._Layout.en.resources
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Email.Contact.bg.resources
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Email.Contact.en.resources
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Email.ForgotenPassword.bg.resources
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Email.ForgotenPassword.en.resources
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Order.Checkout.bg.resources
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Order.Checkout.en.resources
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Order.Confirmation.bg.resources
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Order.Confirmation.en.resources
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Order.PayOrder.bg.resources
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Order.PayOrder.en.resources
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Product.Create.bg.resources
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Product.Create.en.resources
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Product.Details.bg.resources
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Product.Details.en.resources
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Product.Index.bg.resources
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Product.Index.en.resources
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Product.Update.bg.resources
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Product.Update.en.resources
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.AdminPanel.bg.resources
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.AdminPanel.en.resources
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.cart.bg.resources
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.cart.en.resources
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.ChangePassword.bg.resources
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.ChangePassword.en.resources
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.Create.bg.resources
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.Create.en.resources
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.EditProfile.bg.resources
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.EditProfile.en.resources
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.Login.bg.resources
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.Login.en.resources
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.Profile.bg.resources
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.Profile.en.resources
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.Register.bg.resources
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.Register.en.resources
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.Update.bg.resources
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.Update.en.resources
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Email.Contact.bg.resources
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Email.Contact.en.resources
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Email.ForgotenPassword.bg.resources
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Email.ForgotenPassword.en.resources
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Home.EngineSpecifications.bg.resources
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Home.EngineSpecifications.en.resources
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Order.Checkout.bg.resources
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Order.Checkout.en.resources
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Order.Confirmation.bg.resources
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Order.Confirmation.en.resources
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Order.PayOrder.bg.resources
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Order.PayOrder.en.resources
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Product.Create.bg.resources
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Product.Create.en.resources
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Product.Details.bg.resources
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Product.Details.en.resources
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Product.Index.bg.resources
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Product.Index.en.resources
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Product.Update.bg.resources
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Product.Update.en.resources
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.AdminPanel.bg.resources
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.AdminPanel.en.resources
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.cart.bg.resources
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.cart.en.resources
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.ChangePassword.bg.resources
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.ChangePassword.en.resources
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.Create.bg.resources
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.Create.en.resources
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.EditProfile.bg.resources
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.EditProfile.en.resources
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.Login.bg.resources
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.Login.en.resources
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.Profile.bg.resources
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.Profile.en.resources
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.Register.bg.resources
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.Register.en.resources
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.Update.bg.resources
+D:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.Update.en.resources
+E:\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Migrations.initial.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\appsettings.json
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\libman.json
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\AutoPoint.staticwebassets.runtime.json
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\AutoPoint.exe
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\AutoPoint.deps.json
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\AutoPoint.runtimeconfig.json
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\AutoPoint.dll
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\AutoPoint.pdb
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\bg\AutoPoint.resources.dll
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\en\AutoPoint.resources.dll
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\EntityFramework.dll
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\Scrypt.dll
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.csproj.AssemblyReference.cache
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Email.Contact.bg.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Email.Contact.en.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Email.ForgotenPassword.bg.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Email.ForgotenPassword.en.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Home.DTCReader.bg.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Home.DTCReader.en.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Home.EngineSpecifications.bg.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Home.EngineSpecifications.en.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Home.Index.bg.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Home.Index.en.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Order.Checkout.bg.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Order.Checkout.en.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Order.Confirmation.bg.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Order.Confirmation.en.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Order.PayOrder.bg.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Order.PayOrder.en.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Product.Create.bg.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Product.Create.en.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Product.Details.bg.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Product.Details.en.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Product.Index.bg.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Product.Index.en.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Product.Update.bg.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Product.Update.en.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Shared._Layout.bg.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Shared._Layout.en.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.AdminPanel.bg.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.AdminPanel.en.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.cart.bg.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.cart.en.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.ChangePassword.bg.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.ChangePassword.en.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.Create.bg.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.Create.en.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.EditProfile.bg.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.EditProfile.en.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.Login.bg.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.Login.en.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.Profile.bg.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.Profile.en.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.Register.bg.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.Register.en.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.Update.bg.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.Update.en.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.csproj.GenerateResource.cache
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.AssemblyInfoInputs.cache
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.AssemblyInfo.cs
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.csproj.CoreCompileInputs.cache
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.RazorAssemblyInfo.cache
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.RazorAssemblyInfo.cs
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\bg\AutoPoint.resources.dll
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\en\AutoPoint.resources.dll
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\scopedcss\bundle\AutoPoint.styles.css
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.csproj.CopyComplete
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.dll
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\ref\AutoPoint.dll
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.pdb
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.genruntimeconfig.cache
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Migrations.initial.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\RazorEngine.dll
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.OrdersDisplay.bg.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.OrdersDisplay.en.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.ProductsDisplay.bg.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.ProductsDisplay.en.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.UsersDisplay.bg.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.User.UsersDisplay.en.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\System.Web.Razor.dll
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\staticwebassets\msbuild.AutoPoint.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\staticwebassets\msbuild.build.AutoPoint.props
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.AutoPoint.props
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.AutoPoint.props
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\refint\AutoPoint.dll
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\bin\Debug\net6.0\ru\AutoPoint.resources.dll
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Home.Index.ru.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\AutoPoint.Resources.Views.Shared._Layout.ru.resources
+C:\Users\s_dob\OneDrive\Работен плот\Projects\AutoPointFull\AutoPoint\AutoPoint\obj\Debug\net6.0\ru\AutoPoint.resources.dll

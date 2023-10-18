@@ -1,0 +1,78 @@
+﻿@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer localizer
+@{
+    ViewBag.Title = "Login";
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+@model AutoPoint.ViewModel.UserVM.LoginVM
+
+<!-- Start Banner Area -->
+	<section class="banner-area organic-breadcrumb">
+		<div class="container">
+			<div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+				<div class="col-first">
+					<h1>@localizer["Login"]</h1>
+					<nav class="d-flex align-items-center">
+						<a href="/Home/Index">@localizer["Home"]<span class="lnr lnr-arrow-right"></span></a>
+						<a href="/User/Login">@localizer["Login"]</a>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Banner Area -->
+
+	<!--================Login Box Area =================-->
+	<section class="login_box_area section_gap">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="login_box_img">
+						<img class="img-fluid" src="~/img/login.png" alt="">
+						<div class="hover">
+							<h4>@localizer["New to our website?"]</h4>
+							<a class="primary-btn" href="/User/Register">@localizer["Create an Account"]</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="login_form_inner">
+						<h3>@localizer["Log in to enter"]</h3>
+						@if(!ViewBag.isUserFound){
+							<div class="alert alert-primary alert-dismissible fade show" style="margin-left:50px; margin-right:50px" role="alert">
+                                <i class="fa fa-exclamation-circle me-2"></i>@localizer["No user with matching email and password!"]
+                            </div>
+						}
+						<form class="row login_form" action="/User/Login" method="post" id="contactForm">
+
+
+							<input type="hidden" id="isEmailValid" value=""/>
+							<input type="hidden" id="isPasswordValid" value=""/>
+
+
+							<div class="col-md-12 form-group input-control">
+								<input type="text" autocomplete="off" class="form-control" id="email" name="model.email" placeholder="@localizer["Email"]" onfocus="this.placeholder = ''" onblur="this.placeholder = '@localizer["Email"]'">
+								<div class="error"></div>
+							</div>
+							<div class="col-md-12 form-group input-control">
+								<input type="password" autocomplete="off" class="form-control" id="password" name="model.password" placeholder="@localizer["Password"]" onfocus="this.placeholder = ''" onblur="this.placeholder = '@localizer["Password"]'">
+								<div class="error"></div>
+							</div>
+							<div class="col-md-12 form-group">
+								<div class="creat_account">
+									<input type="checkbox" id="model.keepMeLoged" name= "model.keepMeLoged" value="1"/>
+									<label for="f-option2">@localizer["Keep me logged in"]</label>
+								</div>
+							</div>
+							<div class="col-md-12 form-group">
+								<button type="submit" value="submit" class="primary-btn">@localizer["Log In"]</button>
+								<a href="/Email/ForgotenPassword">@localizer["Forgot Password?"]</a>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--================End Login Box Area =================-->
+	<script src = "~/js/validations/loginValidation.js"></script>

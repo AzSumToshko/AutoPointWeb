@@ -1,0 +1,94 @@
+﻿@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer localizer
+@{
+	ViewBag.Title = "Update";
+	Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+@model AutoPoint.ViewModel.ProductVM.UpdateVM
+
+<!-- Start Banner Area -->
+<section class="banner-area organic-breadcrumb">
+	<div class="container">
+		<div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+			<div class="col-first">
+				<h1>@localizer["Update"]</h1>
+				<nav class="d-flex align-items-center">
+					<a href="/Home/Index">@localizer["Home"]<span class="lnr lnr-arrow-right"></span></a>
+					<a href="/User/AdminPanel?id=@Model.userID">@localizer["Admin panel"]<span class="lnr lnr-arrow-right"></span></a>
+					<a href="/Product/Update?id=@Model.id">@localizer["Update"]</a>
+				</nav>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- End Banner Area -->
+<!--================Login Box Area =================-->
+<section class="login_box_area section_gap">
+	<div class="container">
+		
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="login_form_inner section_gap_bottom">
+					<h3>@localizer["Update the desired product"]</h3>
+					<form class="row login_form" action="/Product/Update" enctype="multipart/form-data" method="post" id="contactForm" novalidate="novalidate">
+						<input type="hidden" name="model.id" id="model.id" value="@Model.id"/>
+						<input type="hidden" name="model.fromAction" id="model.fromAction" value="@Model.fromAction"/>
+						
+						<input type="hidden" id="isNameValid" value=""/>
+						<input type="hidden" id="isDescriptionValid" value=""/>
+						<input type="hidden" id="isPriceValid" value=""/>
+						
+						<div class="col-md-12 form-group">
+							
+							<select name="model.typeOfProduct" id="model.typeOfProduct">
+								<option value="Engine parts">@localizer["Engine parts"]</option>
+								<option value="Gear boxes">@localizer["Gear boxes"]</option>
+								<option value="Car interior">@localizer["Car interior"]</option>
+								<option value="Chip tuning">@localizer["Chip tuning"]</option>
+								<option value="Exhaust system">@localizer["Exhaust system"]</option>
+							</select>
+						</div>
+		
+						<div class="col-md-12 form-group input-control">
+							<input type="text" value="@Model.name" autocomplete="off" class="form-control" id="name" name="model.name" placeholder="@localizer["Product name"]" onfocus="this.placeholder = ''" onblur="this.placeholder = '@localizer["Product name"]'">
+							<div class="error"></div>
+						</div>
+
+						<div class="col-md-12 form-group input-control">
+							<input type="text" value="@Model.description" autocomplete="off" class="form-control" id="description" name="model.description"  placeholder="@localizer["description"]" onfocus="this.placeholder = ''" onblur="this.placeholder = '@localizer["description"]'">
+							<div class="error"></div>
+						</div>
+
+						<div class="col-md-12 form-group input-control">
+							<input type="text" value="@Model.price" autocomplete="off" class="form-control" id="price" name="model.price" placeholder="@localizer["price"]" onfocus="this.placeholder = ''" onblur="this.placeholder = '@localizer["price"]'">
+							<div class="error"></div>
+						</div>
+						
+						<div class="col-md-12 form-group">
+							<input type="file" accept=".png" class="form-control" id="model.file" name="model.file" placeholder="@localizer["file"]" onfocus="this.placeholder = ''" onblur="this.placeholder = 'file'">
+						</div>
+
+						<div class="col-md-12 form-group">
+						</div>
+						<div class="col-md-12 form-group">
+							@if (@Model.fromAction.Equals("admin"))
+							{
+								<a href="/User/AdminPanel" class="primary-btn" style="color:white; text-decoration:none;">@localizer["Back"]</a>
+							}
+							else
+							{
+								<a href="/Product/Details?id=@Model.id" class="primary-btn" style="color:white; text-decoration:none;">@localizer["Back"]</a>
+							}
+							
+							<button type="submit" value="submit" class="primary-btn">@localizer["Update"]</button>
+						</div>
+					</form>
+				</div>
+				</div>
+		</div>
+		
+	</div>
+</section>
+<!--================End Login Box Area =================-->
+
+<script src="~/js/validations/createUpdateProduct.js"></script>

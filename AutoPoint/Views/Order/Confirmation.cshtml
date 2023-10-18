@@ -1,0 +1,145 @@
+﻿@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer localizer
+@{
+    ViewBag.Title = "Confirmation";
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+@model AutoPoint.ViewModel.OrderVM.OrderDisplayVM
+
+<!-- Start Banner Area -->
+	<section class="banner-area organic-breadcrumb">
+		<div class="container">
+			<div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+				<div class="col-first">
+					<h1>@localizer["Confirmation"]</h1>
+					<nav class="d-flex align-items-center">
+						<a href="/Home/Index">@localizer["Home"]<span class="lnr lnr-arrow-right"></span></a>
+						<a href="/Product/Index">@localizer["Product"]<span class="lnr lnr-arrow-right"></span></a>
+						<a href="/Order/Confirmation">@localizer["Confirmation"]</a>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Banner Area -->
+
+	<!--================Order Details Area =================-->
+	<section class="order_details section_gap">
+		<div class="container">
+			<h3 class="title_confirmation">@localizer["Thank you. Your order has been received."]</h3>
+			<div class="row order_d_inner">
+				<div class="col-lg-4">
+					<div class="details_item">
+						<h4>@localizer["Order info"]</h4>
+						<ul class="list">
+							<li><a href="#"><span>@localizer["Order number"]</span> : #@Model.ID</a></li>
+							<li><a href="#"><span>@localizer["Receive Date"]</span> :  @Model.date</a></li>
+							<li><a href="#"><span>@localizer["Total"]</span> :  @Model.total BGN</a></li>
+							<li><a href="#"><span>@localizer["Payment method"]</span> :  @Model.paymentMethod</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="details_item">
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="details_item">
+						<h4>@localizer["Shipping Address"]</h4>
+							<ul class="list">
+								<li><a href="#"><span>@localizer["Status"]</span> : @Model.fullName</a></li>
+								<li><a href="#"><span>@localizer["Street"]</span> : @Model.addressOne</a></li>
+								<li><a href="#"><span>@localizer["City"]</span> : @Model.city</a></li>
+								<li><a href="#"><span>@localizer["Postcode"] </span> : @Model.postcode</a></li>
+							</ul>
+					</div>
+				</div>
+			</div>
+			<div class="order_details_table">
+				<h2>@localizer["Order Details"]</h2>
+				<div class="table-responsive">
+					<table class="table">
+						<thead>
+							<tr>
+								<th scope="col">@localizer["Product"]</th>
+								<th scope="col">@localizer["Quantity"]</th>
+								<th scope="col">@localizer["Total"]</th>
+							</tr>
+						</thead>
+						<tbody>
+
+							@foreach (var item in Model.products)
+							{
+								<tr>
+								<td>
+									@if(item.product == null)
+									{
+										<p>@localizer["DELETED PRODUCT"]</p>
+									}
+									else
+									{
+										<p>@item.product.name</p>
+									}
+									
+								</td>
+								<td>
+									<h5>x @item.Quantity</h5>
+								</td>
+								<td>
+									@if(item.product == null)
+									{
+										<p>@localizer["UNKNOWN"]</p>
+									}
+									else
+									{
+										<p>@item.product.price BGN</p>
+									}
+								</td>
+							</tr>
+							}
+
+							<tr>
+								<td>
+									<h4>@localizer["Subtotal"]</h4>
+								</td>
+								<td>
+									<h5></h5>
+								</td>
+								<td>
+									<p>@Model.subtotal BGN</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<h4>@localizer["Shipping"]</h4>
+								</td>
+								<td>
+									<h5></h5>
+								</td>
+								<td>
+								@if (Model.deliveryType.Equals("Free"))
+								{
+									<p>@localizer["Flat rate:"] 0,00 BGN</p>
+								}else{
+									<p>@localizer["Flat rate:"] 12,00 BGN</p>
+								}
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<h4>@localizer["Total"]</h4>
+								</td>
+								<td>
+									<h5></h5>
+								</td>
+								<td>
+									<p>@Model.total BGN</p>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--================End Order Details Area =================-->

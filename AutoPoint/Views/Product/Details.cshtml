@@ -1,0 +1,145 @@
+﻿@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer localizer
+@{
+    ViewBag.Title = "Details";
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+@model AutoPoint.ViewModel.ProductVM.DetailsVM
+
+
+<!-- Start Banner Area -->
+	<section class="banner-area organic-breadcrumb">
+		<div class="container">
+			<div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+				<div class="col-first">
+					<h1>@localizer["Product Details"]</h1>
+					<nav class="d-flex align-items-center">
+						<a href="/Home/Index">@localizer["Home"]<span class="lnr lnr-arrow-right"></span></a>
+						<a href="/Product/Index">@localizer["Shop"]<span class="lnr lnr-arrow-right"></span></a>
+						<a href="/Product/Details?id=@Model.item.ID">@Model.item.name</a>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Banner Area -->
+
+	<!--================Single Product Area =================-->
+	<div class="product_image_area">
+		<div class="container">
+			<div class="row s_product_inner">
+				<div class="col-lg-6">
+						<div class="single-prd-item">
+							<img class="img-fluid" src="data:image/png;base64,@(Html.Raw(Convert.ToBase64String(Model.item.image)))" alt="~/img/product/default_photo.png">
+						</div>
+				</div>
+				<div class="col-lg-5 offset-lg-1">
+					<div class="s_product_text">
+
+						<h3>@Model.item.name</h3>
+
+						<h2>@Model.item.price BGN</h2>
+
+						<ul class="list">
+							<li><span>@localizer["Category"]</span> : @Model.item.typeOfProduct</li>
+							<li><span>@localizer["Availibility"]</span> : @localizer["In Stock"]</li>
+						</ul>
+
+						<p>@Model.item.description</p>
+						<form action="/Product/AddToCart">
+
+							<input type = "hidden" name="actionName" value="Details"/>
+							<input type = "hidden" name="controlerName" value="Product"/>
+							<input type = "hidden" name="productId" value="@Model.item.ID"/>
+
+							<div class="product_count">
+								<label for="qty">@localizer["Quantity:"]</label>
+								<input type="number" name="productQuantity" min="1" max="12" maxlength="12" value="1" title="Quantity:" class="input-text qty">
+							</div>
+
+							<div class="card_area d-flex align-items-center">
+								<button type="submit" class="primary-btn">@localizer["Add to Cart"]</button>
+								@if(User.Identity.IsAuthenticated && User.Identity.Name.Equals("Admin")){
+									<a  class="primary-btn" href="/Product/Update?id=@Model.item.ID&fromAction=details">@localizer["Update"]</a>
+								}
+							</div>
+						</form>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--================End Single Product Area =================-->
+
+	<!--================Product Description Area =================-->
+	<section class="product_description_area">
+		<div class="container">
+			<center><h1>@localizer["Comments"]</h1></center>
+			<br/>
+			<!--================Product comments display Area =================-->
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="comment_list">
+
+								@foreach (var item in Model.comments)
+								{
+									<div class="review_item">
+									<div class="media">
+										<div class="media-body">
+											<h4>@item.fullName</h4>
+										</div>
+									</div>
+									<p style="color:#ffba00">@item.message</p>
+									</div>
+								}
+							</div>
+						</div>
+						<!--================Product comment form Area =================-->
+						<div class="col-lg-6">
+							<div class="review_box">
+								<h4>@localizer["Post a comment"]</h4>
+								<form class="row contact_form" action="/Comment/AddComment" id="contactForm" novalidate="novalidate">
+									<input type="hidden" name="model.productID" id="model.productID" value="@Model.item.ID"/>
+
+									<input type="hidden" value="" id="isFullNameValid" />
+									<input type="hidden" value="" id="isMessageValid" />
+									
+									@if (User.Identity.IsAuthenticated)
+									{
+										<input type="hidden" value="@Model.fullName" id="fullName" name="model.fullName"/>
+										<div class="col-md-12">
+											<div class="form-group input-control">
+												<input readonly type="text" class="form-control" id="fullName" placeholder="@Model.fullName">
+												<div class="error"></div>
+											</div>
+										</div>
+									}
+									else
+									{
+										<div class="col-md-12">
+											<div class="form-group input-control">
+												<input type="text" class="form-control" id="fullName" name="model.fullName" placeholder="@localizer["Your Full name"]">
+												<div class="error"></div>
+											</div>
+										</div>
+									}
+									
+									<div class="col-md-12">
+										<div class="form-group input-control">
+											<textarea class="form-control" name="model.message" id="message" rows="1" placeholder="@localizer["Message"]"></textarea>
+											<div class="error"></div>
+										</div>
+									</div>
+									<div class="col-md-12 text-right">
+										<button type="submit" value="submit" class="btn primary-btn">@localizer["Submit Now"]</button>
+									</div>
+								</form>
+							</div>
+						</div>
+
+					</div>
+				</div>
+	</section>
+	<!--================End Product Description Area =================-->
+
+	<script src = "~/js/validations/commentValidation.js"></script>

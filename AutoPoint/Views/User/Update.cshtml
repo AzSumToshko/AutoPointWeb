@@ -1,0 +1,79 @@
+﻿@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer localizer
+@{
+	ViewBag.Title = "Update";
+	Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+@model AutoPoint.ViewModel.UserVM.UpdateVM
+
+<!-- Start Banner Area -->
+<section class="banner-area organic-breadcrumb">
+	<div class="container">
+		<div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+			<div class="col-first">
+				<h1>@localizer["Update"]</h1>
+				<nav class="d-flex align-items-center">
+					<a href="/Home/Index">@localizer["Home"]<span class="lnr lnr-arrow-right"></span></a>
+					<a href="/User/AdminPanel?id=@Model.userID">@localizer["Admin panel"]<span class="lnr lnr-arrow-right"></span></a>
+					<a href="/User/AdminPanel?id=@Model.userID/Update?id=@Model.id">@localizer["Update"]</a>
+				</nav>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- End Banner Area -->
+<!--================Login Box Area =================-->
+<section class="login_box_area section_gap">
+	<div class="container">
+		
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="login_form_inner">
+					<h3>@localizer["Update the desired user"]</h3>
+					<form class="row login_form" action="/User/Update" method="post" id="contactForm" novalidate="novalidate">
+						<input type="hidden" name= "model.id" id="model.id" value=@Model.id />
+						<input type="hidden" name= "model.userID" value="@Model.userID"></input>
+						
+						<input type="hidden" id="isFirstNameValid" value=""/>
+						<input type="hidden" id="isLastNameValid" value=""/>
+						<input type="hidden" id="isEmailValid" value=""/>
+						<input type="hidden" id="isAddressValid" value=""/>
+						
+						<div class="col-md-12 form-group input-control">
+							<input type="text" autocomplete="off" class="form-control" id="firstName" name="model.firstName" value="@Model.firstName" placeholder="@localizer["First name"]" onfocus="this.placeholder = ''" onblur="this.placeholder = '@localizer["First name"]'">
+							<div class="error"></div>
+						</div>
+						<div class="col-md-12 form-group input-control">
+							<input type="text" autocomplete="off" class="form-control" id="lastName" name="model.lastName" value="@Model.lastName"  placeholder="@localizer["Last name"]" onfocus="this.placeholder = ''" onblur="this.placeholder = '@localizer["Last name"]'">
+							<div class="error"></div>
+						</div>
+						<div class="col-md-12 form-group input-control">
+							<input type="text" autocomplete="off" class="form-control" id="address" name="model.address" value="@Model.address" placeholder="@localizer["address"]" onfocus="this.placeholder = ''" onblur="this.placeholder = '@localizer["address"]'">
+							<div class="error"></div>
+						</div>
+						<div class="col-md-12 form-group input-control">
+							<input type="text" autocomplete="off" class="form-control" id="email" name="model.email" value="@Model.email" placeholder="@localizer["Email"]" onfocus="this.placeholder = ''" onblur="this.placeholder = '@localizer["Email"]'">
+							<div class="error"></div>
+						</div>
+						<div class="col-md-12 form-group input-control">
+							<input type="password" autocomplete="off" class="form-control" id="password" name="model.password" placeholder="@localizer["Password"]" onfocus="this.placeholder = ''" onblur="this.placeholder = '@localizer["Password"]'">
+						</div>
+						<div class="col-md-12 form-group">
+							@localizer["is admin"] :<input type="checkbox" class="form-control" id="model.isAdmin" name="model.isAdmin" value=True placeholder="@Model.isAdmin" onfocus="this.placeholder = ''" onblur="this.placeholder = 'isAdmin'">
+						</div>
+						<div class="col-md-12 form-group">
+						</div>
+						<div class="col-md-12 form-group">
+							<a href="/User/AdminPanel" class="primary-btn" style="color:white; text-decoration:none;">@localizer["Back"]</a>
+							<button type="submit" value="submit" class="primary-btn">@localizer["Update"]</button>
+						</div>
+					</form>
+				</div>
+				</div>
+		</div>
+		
+	</div>
+</section>
+<!--================End Login Box Area =================-->
+
+<script src="~/js/validations/UpdateUserValidation.js"></script>

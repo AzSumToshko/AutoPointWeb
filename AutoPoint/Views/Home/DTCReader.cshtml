@@ -1,0 +1,83 @@
+﻿@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer localizer
+@{
+    ViewBag.Title = "DTC Reader";
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+@model AutoPoint.ViewModel.HomeVM.DTCReaderVM
+
+<!-- Start Banner Area -->
+	<section class="banner-area organic-breadcrumb">
+		<div class="container">
+			<div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+				<div class="col-first">
+					<h1>@localizer["Read OBD-2 module errors."]</h1>
+					<nav class="d-flex align-items-center">
+						<a href="/Home/Index">@localizer["Home"]<span class="lnr lnr-arrow-right"></span></a>
+						<a href="/Home/DTCReader?errorCode=None">@localizer["DTC reader"]</a>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Banner Area -->
+
+	<!--================Tracking Box Area =================-->
+<section class="tracking_box_area section_gap">
+    <div class="container">
+        <div class="tracking_box_inner">
+            <center>
+                <p>
+                    @localizer["Enter the DTC code (OBD-II Trouble Code) so we can translate the code for you."]
+                </p>
+                <form class="row tracking_form" action="/Home/DTCReader" method="post" novalidate="novalidate">
+                    <div class="col-md-12 form-group"> 
+                        @if (Model != null && !string.IsNullOrEmpty(Model.code))
+                        {
+                            <input type="text" autocomplete="off" class="form-control" value="@Model.code" name="errorCode" placeholder="@localizer["ex. P0001"]" onfocus="this.placeholder = ''" onblur="this.placeholder = @localizer["ex. P0001"]">
+                        }else
+                        {
+                            <input type="text" autocomplete="off" class="form-control" name="errorCode" placeholder="@localizer["ex. P0001"]" onfocus="this.placeholder = ''" onblur="this.placeholder = '@localizer["ex. P0001"]'">
+                        }
+                    </div>
+                    <div class="col-md-12 form-group">
+                        <button type="submit" value="submit" class="primary-btn">@localizer["Send"]</button>
+                    </div>
+                </form>
+            </center>
+
+                @if(Model != null)
+                {
+                    @if(Model.code == null)
+                    {
+                        <center><p style="color: red;">@localizer["There was no error found with that code!"]</p></center>
+                    }
+                    else
+                    {
+
+                        <ol class="ordered-list">
+                            <li>
+                                <span>@localizer["Code:"] @Model.code</span>
+                            </li>
+                            <li>
+                                <span>@localizer["Definition:"] @Model.definition</span>
+                            </li>
+                            <li>
+                                <span>@localizer["Cause:"]</span>
+                                <ol class="ordered-list-alpha">
+                                    @foreach (var item in Model.cause)
+                                    {
+                                        <li>
+                                            <span>@item</span>
+                                        </li>
+                                    }
+                                </ol>
+                            </li>
+                        </ol>
+                    }
+                }
+            
+        </div>
+    </div>
+</section>
+<!--================End Tracking Box Area =================-->

@@ -1,0 +1,207 @@
+﻿@using AutoPoint.Tools
+@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer localizer
+@{
+    ViewBag.Title = "Admin";
+}
+
+@model AutoPoint.ViewModel.UserVM.ProductsDisplayVM
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    <title>@localizer["Admin"]</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Author Meta -->
+	<meta name="author" content="SamuilDobrinski">
+
+	<!-- Meta Keyword -->
+	<meta name="keywords" content="">
+
+	<!-- Tab icon -->
+	<link rel="shortcut icon" href="~/img/fav.png">
+
+	<!-- meta character set -->
+	<meta charset="UTF-8">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet"> 
+    
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="~/admin/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="~/admin/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="~/admin/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="~/admin/css/style.css" rel="stylesheet">
+    </head>
+    
+    <body>
+    <div class="container-fluid position-relative d-flex p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-dark position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">@localizer["Loading..."]</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Sidebar Start -->
+        <div class="sidebar pe-4 pb-3">
+            <nav class="navbar bg-secondary navbar-dark">
+                <a href="/User/AdminPanel" class="navbar-brand mx-4 mb-3">
+                    <h3 class="text-primary"><i class="fa fa-user-edit me-2"></i>AutoAdmin</h3>
+                </a>
+                <div class="d-flex align-items-center ms-4 mb-4">
+                    <div class="position-relative">
+                        <div class="bg-success rounded-circle border border-2 border-white position-absolute end-0 bottom-0 p-1"></div>
+                    </div>
+                    <div class="ms-3">
+                        <h6 class="mb-0">@Model.user.firstName @Model.user.lastName</h6>
+                        <span>@localizer["Admin"]</span>
+                    </div>
+                </div>
+                <div class="navbar-nav w-100">
+                    <a href="/User/AdminPanel" class="nav-item nav-link"><i class="fa fa-tachometer-alt me-2"></i>@localizer["Dashboard"]</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-user me-2"></i>@localizer["Users"]</a>
+                        <div class="dropdown-menu bg-transparent border-0">
+                            <a href="/User/UsersDisplay" class="dropdown-item">@localizer["Display"]</a>
+                            <a href="/User/Create" class="dropdown-item">@localizer["Create"]</a>
+                        </div>
+                    </div>
+
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-laptop me-2"></i>@localizer["Products"]</a>
+                        <div class="dropdown-menu bg-transparent border-0">
+                            <a href="/user/ProductsDisplay" class="dropdown-item">@localizer["Display"]</a>
+                            <a href="/Product/Create" class="dropdown-item">@localizer["Create"]</a>
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-box-open me-2"></i>@localizer["Orders"]</a>
+                        <div class="dropdown-menu bg-transparent border-0">
+                            <a href="@Url.Action("OrdersDisplay", "User", new { pendingOnly = false })" class="dropdown-item">@localizer["All"]</a>
+                            <a href="@Url.Action("OrdersDisplay", "User", new { pendingOnly = true })" class="dropdown-item">@localizer["Pending"]</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </nav>
+        </div>
+        <!-- Sidebar End -->
+
+
+        <!-- Content Start -->
+        <div class="content">
+            <!-- Navbar Start -->
+            <nav class="navbar navbar-expand bg-secondary navbar-dark sticky-top px-4 py-0">
+                <a href="index.html" class="navbar-brand d-flex d-lg-none me-4">
+                    <h2 class="text-primary mb-0"><i class="fa fa-user-edit"></i></h2>
+                </a>
+                <a href="#" class="sidebar-toggler flex-shrink-0", style="margin-top: 12px; margin-bottom: 12px;">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <div class="navbar-nav align-items-center ms-auto">
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                            <span class="d-none d-lg-inline-flex">@Model.user.firstName @Model.user.lastName</span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-end bg-secondary border-0 rounded-0 rounded-bottom m-0">
+                            <a href="/User/Profile" class="dropdown-item">@localizer["My Profile"]</a>
+                            <a href="/User/Logout" class="dropdown-item">@localizer["Log Out"]</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- Navbar End -->
+
+            <div class="container-fluid pt-4 px-4">
+                <div class="bg-secondary text-center rounded p-4">
+                    <div class="d-flex align-items-center justify-content-between mb-4">
+                        <h6 class="mb-0">@localizer["Products"]</h6>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="table text-start align-middle table-bordered table-hover mb-0">
+                            <thead>
+                                <tr class="text-white">
+                                    <th scope="col">@localizer["Name"]</th>
+                                    <th scope="col">@localizer["Description"]</th>
+                                    <th scope="col">@localizer["Type"]</th>
+                                    <th scope="col">@localizer["Price"]</th>
+                                    <th scope="col">@localizer["Action"]</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model.products)
+                                {
+                                <tr>
+                                    <td>@item.name</td>
+                                    <td>@item.description</td>
+                                    <td>@item.typeOfProduct</td>
+                                    <td>@Math.Round(item.price,2)</td>
+                                    <td>
+                                        <a class="btn btn-sm btn-primary" href="/Product/Details?id=@item.ID">@localizer["View"]</a>
+                                        <a class="btn btn-sm btn-primary" href="/Product/Update?id=@item.ID&fromAction=admin">@localizer["Edit"]</a>
+                                        <a class="btn btn-sm btn-primary" href="/Product/Delete?id=@item.ID">@localizer["Delete"]</a>
+                                    </td>
+                                </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Start -->
+            <div class="container-fluid pt-4 px-4">
+                <div class="bg-secondary rounded-top p-4">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 text-center text-sm-start">
+                            &copy; <a href="#">AutoPoint</a>, @localizer["All Right Reserved."] 
+                        </div>
+                        <div class="col-12 col-sm-6 text-center text-sm-end">
+                            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                            @localizer["Designed By"] <a href="">AzSumToshko</a>
+                            <br>@localizer["Distributed By:"] <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer End -->
+        </div>
+        <!-- Content End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.3.2/dist/chart.min.js"></script>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/admin/lib/chart/chart.min.js"></script>
+    <script src="~/admin/lib/easing/easing.min.js"></script>
+    <script src="~/admin/lib/waypoints/waypoints.min.js"></script>
+    <script src="~/admin/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="~/admin/lib/tempusdominus/js/moment.min.js"></script>
+    <script src="~/admin/lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="~/admin/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="~/admin/js/main.js"></script>
+    </body>
+
+</html>

@@ -1,0 +1,841 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\Gear.gif",
+      "PackagePath": "staticwebassets\\Gear.gif"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\admin\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\css\\style.css",
+      "PackagePath": "staticwebassets\\admin\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\img\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\testimonial-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\img\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\testimonial-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\img\\user.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\user.jpg"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\js\\main.js",
+      "PackagePath": "staticwebassets\\admin\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\lib\\chart\\chart.min.js",
+      "PackagePath": "staticwebassets\\admin\\lib\\chart\\chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\admin\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\admin\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\admin\\lib\\owlcarousel"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\admin\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\admin\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\admin\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\admin\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\admin\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\admin\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\admin\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\admin\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\admin\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\admin\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css",
+      "PackagePath": "staticwebassets\\admin\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css",
+      "PackagePath": "staticwebassets\\admin\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\lib\\tempusdominus\\js\\moment-timezone.min.js",
+      "PackagePath": "staticwebassets\\admin\\lib\\tempusdominus\\js\\moment-timezone.min.js"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\lib\\tempusdominus\\js\\moment.min.js",
+      "PackagePath": "staticwebassets\\admin\\lib\\tempusdominus\\js\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
+      "PackagePath": "staticwebassets\\admin\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js",
+      "PackagePath": "staticwebassets\\admin\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\admin\\lib\\waypoints\\links.php"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\admin\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\_accordion.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_accordion.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\_containers.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_containers.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\_helpers.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_helpers.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_offcanvas.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\forms\\_labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\forms\\_validation.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\helpers\\_position.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_container.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\utilities\\_api.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\admin\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\css\\ArrowsRemove.css",
+      "PackagePath": "staticwebassets\\css\\ArrowsRemove.css"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\css\\OrderDetails.css",
+      "PackagePath": "staticwebassets\\css\\OrderDetails.css"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\css\\availability-calendar.css",
+      "PackagePath": "staticwebassets\\css\\availability-calendar.css"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\css\\bootstrap-select.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-select.css"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\css\\bootstrap.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.map"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\css\\custom.css",
+      "PackagePath": "staticwebassets\\css\\custom.css"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\css\\defaultPicture.jpg",
+      "PackagePath": "staticwebassets\\css\\defaultPicture.jpg"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\css\\ion.rangeSlider.css",
+      "PackagePath": "staticwebassets\\css\\ion.rangeSlider.css"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\css\\ion.rangeSlider.skinFlat.css",
+      "PackagePath": "staticwebassets\\css\\ion.rangeSlider.skinFlat.css"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\css\\jquerysctipttop.css",
+      "PackagePath": "staticwebassets\\css\\jquerysctipttop.css"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\css\\linearicons.css",
+      "PackagePath": "staticwebassets\\css\\linearicons.css"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\css\\main.css.map",
+      "PackagePath": "staticwebassets\\css\\main.css.map"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\css\\main.map",
+      "PackagePath": "staticwebassets\\css\\main.map"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\css\\nice-select.css"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\css\\nouislider.min.css",
+      "PackagePath": "staticwebassets\\css\\nouislider.min.css"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\css\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\css\\themify-icons.css",
+      "PackagePath": "staticwebassets\\css\\themify-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\fonts\\Linearicons-Free.eot",
+      "PackagePath": "staticwebassets\\fonts\\Linearicons-Free.eot"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\fonts\\Linearicons-Free.svg",
+      "PackagePath": "staticwebassets\\fonts\\Linearicons-Free.svg"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\fonts\\Linearicons-Free.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Linearicons-Free.ttf"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\fonts\\Linearicons-Free.woff",
+      "PackagePath": "staticwebassets\\fonts\\Linearicons-Free.woff"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\fonts\\Linearicons-Free.woff2",
+      "PackagePath": "staticwebassets\\fonts\\Linearicons-Free.woff2"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\fonts\\themify.eot",
+      "PackagePath": "staticwebassets\\fonts\\themify.eot"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\fonts\\themify.svg",
+      "PackagePath": "staticwebassets\\fonts\\themify.svg"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\fonts\\themify.ttf",
+      "PackagePath": "staticwebassets\\fonts\\themify.ttf"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\fonts\\themify.woff",
+      "PackagePath": "staticwebassets\\fonts\\themify.woff"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\img\\banner\\banner-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\banner-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\img\\banner\\banner-img-2.png",
+      "PackagePath": "staticwebassets\\img\\banner\\banner-img-2.png"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\img\\banner\\banner-img.png",
+      "PackagePath": "staticwebassets\\img\\banner\\banner-img.png"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\img\\banner\\common-banner.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\common-banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\img\\bg_logo.png",
+      "PackagePath": "staticwebassets\\img\\bg_logo.png"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\img\\category\\c1.png",
+      "PackagePath": "staticwebassets\\img\\category\\c1.png"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\img\\category\\c2.png",
+      "PackagePath": "staticwebassets\\img\\category\\c2.png"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\img\\category\\c3.png",
+      "PackagePath": "staticwebassets\\img\\category\\c3.png"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\img\\category\\c4.png",
+      "PackagePath": "staticwebassets\\img\\category\\c4.png"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\img\\category\\c5.png",
+      "PackagePath": "staticwebassets\\img\\category\\c5.png"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\img\\category\\exhaust.jpg",
+      "PackagePath": "staticwebassets\\img\\category\\exhaust.jpg"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\img\\category\\gear.jpg",
+      "PackagePath": "staticwebassets\\img\\category\\gear.jpg"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\img\\category\\interior.jpg",
+      "PackagePath": "staticwebassets\\img\\category\\interior.jpg"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\img\\elements\\disabled-check.png",
+      "PackagePath": "staticwebassets\\img\\elements\\disabled-check.png"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\img\\elements\\disabled-radio.png",
+      "PackagePath": "staticwebassets\\img\\elements\\disabled-radio.png"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\img\\elements\\primary-check.png",
+      "PackagePath": "staticwebassets\\img\\elements\\primary-check.png"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\img\\elements\\primary-radio.png",
+      "PackagePath": "staticwebassets\\img\\elements\\primary-radio.png"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\img\\elements\\success-check.png",
+      "PackagePath": "staticwebassets\\img\\elements\\success-check.png"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\img\\elements\\success-radio.png",
+      "PackagePath": "staticwebassets\\img\\elements\\success-radio.png"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\img\\fav.png",
+      "PackagePath": "staticwebassets\\img\\fav.png"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\img\\features\\f-icon1.png",
+      "PackagePath": "staticwebassets\\img\\features\\f-icon1.png"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\img\\features\\f-icon2.png",
+      "PackagePath": "staticwebassets\\img\\features\\f-icon2.png"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\img\\features\\f-icon3.png",
+      "PackagePath": "staticwebassets\\img\\features\\f-icon3.png"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\img\\features\\f-icon4.png",
+      "PackagePath": "staticwebassets\\img\\features\\f-icon4.png"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\img\\login.png",
+      "PackagePath": "staticwebassets\\img\\login.png"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\img\\product\\card.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\card.jpg"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\img\\product\\default_photo.png",
+      "PackagePath": "staticwebassets\\img\\product\\default_photo.png"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\img\\register.png",
+      "PackagePath": "staticwebassets\\img\\register.png"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\js\\countdown.js",
+      "PackagePath": "staticwebassets\\js\\countdown.js"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\js\\gmaps.min.js",
+      "PackagePath": "staticwebassets\\js\\gmaps.min.js"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\js\\ion.rangeSlider.js",
+      "PackagePath": "staticwebassets\\js\\ion.rangeSlider.js"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\js\\jquery.ajaxchimp.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.ajaxchimp.min.js"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\js\\jquery.nice-select.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.nice-select.min.js"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\js\\jquery.sticky.js",
+      "PackagePath": "staticwebassets\\js\\jquery.sticky.js"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\js\\nouislider.min.js",
+      "PackagePath": "staticwebassets\\js\\nouislider.min.js"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\js\\parallax.min.js",
+      "PackagePath": "staticwebassets\\js\\parallax.min.js"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\js\\profile.js",
+      "PackagePath": "staticwebassets\\js\\profile.js"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\js\\validations\\UpdateUserValidation.js",
+      "PackagePath": "staticwebassets\\js\\validations\\UpdateUserValidation.js"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\js\\validations\\changePasswordValidation.js",
+      "PackagePath": "staticwebassets\\js\\validations\\changePasswordValidation.js"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\js\\validations\\checkoutValidation.js",
+      "PackagePath": "staticwebassets\\js\\validations\\checkoutValidation.js"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\js\\validations\\commentValidation.js",
+      "PackagePath": "staticwebassets\\js\\validations\\commentValidation.js"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\js\\validations\\contactValidation.js",
+      "PackagePath": "staticwebassets\\js\\validations\\contactValidation.js"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\js\\validations\\createUpdateProduct.js",
+      "PackagePath": "staticwebassets\\js\\validations\\createUpdateProduct.js"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\js\\validations\\editProfileValidation.js",
+      "PackagePath": "staticwebassets\\js\\validations\\editProfileValidation.js"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\js\\validations\\loginValidation.js",
+      "PackagePath": "staticwebassets\\js\\validations\\loginValidation.js"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\js\\validations\\registerValidation.js",
+      "PackagePath": "staticwebassets\\js\\validations\\registerValidation.js"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\js\\vendor\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\js\\vendor\\jquery-2.2.4.min.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\jquery-2.2.4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\s_dob\\OneDrive\\Работен плот\\Projects\\AutoPointFull\\AutoPoint\\AutoPoint\\wwwroot\\js\\vendor\\popper.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\popper.js"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.AutoPoint.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.build.AutoPoint.props",
+      "PackagePath": "build\\AutoPoint.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.AutoPoint.props",
+      "PackagePath": "buildMultiTargeting\\AutoPoint.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildTransitive.AutoPoint.props",
+      "PackagePath": "buildTransitive\\AutoPoint.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

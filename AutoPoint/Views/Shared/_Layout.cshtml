@@ -1,0 +1,211 @@
+﻿@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer localizer
+@inject Microsoft.Extensions.Options.IOptions<Microsoft.AspNetCore.Builder.RequestLocalizationOptions> locOptions
+
+@{
+	var culture = Context.Features.Get<Microsoft.AspNetCore.Localization.IRequestCultureFeature>();
+	var cultureList = locOptions.Value.SupportedUICultures.Select(x => new SelectListItem { Value = x.Name, Text = x.Name }).ToList();
+}
+
+<html>
+    <head>
+		<!-- Tab title -->
+		<title>@ViewBag.Title</title>
+
+		<!-- META + CSS -->
+			<!-- Mobile Specific Meta -->
+			<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+			<!-- Author Meta -->
+			<meta name="author" content="SamuilDobrinski">
+
+			<!-- Meta Keyword -->
+			<meta name="keywords" content="">
+
+			<!-- Tab icon -->
+			<link rel="shortcut icon" href="~/img/fav.png">
+
+			<!-- meta character set -->
+			<meta charset="UTF-8">
+
+			<!-- Render CSS files -->
+			<link rel="stylesheet" href="~/css/linearicons.css">
+			<link rel="stylesheet" href="~/css/font-awesome.min.css">
+			<link rel="stylesheet" href="~/css/themify-icons.css">
+			<link rel="stylesheet" href="~/css/bootstrap.css">
+			<link rel="stylesheet" href="~/css/nice-select.css">
+			<link rel="stylesheet" href="~/css/nouislider.min.css">
+			<link rel="stylesheet" href="~/css/ion.rangeSlider.css">
+			<link rel="stylesheet" href="~/css/ion.rangeSlider.skinFlat.css">
+			<link rel="stylesheet" href="~/css/magnific-popup.css">
+			<link rel="stylesheet" href="~/css/main.css">
+			<link rel="stylesheet" href="~/css/jquerysctipttop.css">
+			<link rel="stylesheet" href="~/css/owl.carousel.css">
+			<link rel="stylesheet" href="~/css/availability-calendar.css">
+			<link rel="stylesheet" href="~/css/custom.css" />
+
+				<link rel="stylesheet" href="~/css/bootstrap.min.css" />
+				<link rel="stylesheet" href="~/style.css" />
+				<link rel="stylesheet" href="~/css/responsive.css" />
+				<link rel="stylesheet" href="~/css/bootstrap-select.css" />
+
+			<script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/50/8/intl/bg_ALL/common.js"></script>
+			<script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/50/8/intl/bg_ALL/util.js"></script>
+
+
+    </head>
+    <body>
+
+		<!-- Start Header Area -->
+		<header class="header_area sticky-header">
+			<div class="main_menu">
+				<nav class="navbar navbar-expand-lg navbar-light main_box">
+					<div class="container">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<img src="~/img/logo.png" style="margin-left:15px; margin-top: 15px; margin-bottom: 15px;" width="250px" height="50px" alt="">
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+						 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+							<ul class="nav navbar-nav menu_nav ml-auto" style="margin-left:20px">
+
+								<li class="nav-item submenu dropdown">
+									<a href="/Product/Index" class="nav-link" data-toggle="dropdown" role="button" aria-haspopup="true"
+									 aria-expanded="false">@localizer["Languages"]</a>
+									<ul class="dropdown-menu">
+										<li class="nav-item"><a class="nav-link" href="/Home/CultureManagement?culture=en">@localizer["English"]</a></li>
+										<li class="nav-item"><a class="nav-link" href="/Home/CultureManagement?culture=bg">@localizer["Bulgarian"]</a></li>
+										<li class="nav-item"><a class="nav-link" href="/Home/CultureManagement?culture=ru">@localizer["Russian"]</a></li>
+									</ul>
+								</li>
+
+								<!-- Home -->
+								<li class="nav-item"><a class="nav-link" href="/Home/Index">@localizer["Home"]</a></li>
+
+								<!-- Products -->
+								<li class="nav-item submenu dropdown">
+									<a href="/Product/Index" class="nav-link" data-toggle="dropdown" role="button" aria-haspopup="true"
+									 aria-expanded="false">@localizer["Products"]</a>
+									<ul class="dropdown-menu">
+										<li class="nav-item"><a class="nav-link" href="/Product/Index">@localizer["All items"]</a></li>
+										<li class="nav-item"><a class="nav-link" href="/Product/Index?category=Race chips">@localizer["Race chips"]</a></li>
+										<li class="nav-item"><a class="nav-link" href="/Product/Index?category=Car interior">@localizer["Car interior"]</a></li>
+										<li class="nav-item"><a class="nav-link" href="/Product/Index?category=Exhaust system">@localizer["Exhaust systems"]</a></li>
+										<li class="nav-item"><a class="nav-link" href="/Product/Index?category=Gear boxes">@localizer["Gear boxes"]</a></li>
+										<li class="nav-item"><a class="nav-link" href="/Product/Index?category=Engine parts">@localizer["Engine parts"]</a></li>
+									</ul>
+								</li>
+
+								<li class="nav-item"><a class="nav-link" href="/Home/DTCReader?errorCode=None">@localizer["DTC Reader"]</a></li>
+
+								<li class="nav-item"><a class="nav-link" href="/Home/EngineSpecifications">@localizer["Engine specs"]</a></li>
+
+								<!-- contact -->
+								<li class="nav-item"><a class="nav-link" href="/Email/Contact">@localizer["Contact"]</a></li>
+								
+								<!-- account -->
+								<li class="nav-item submenu dropdown"> 
+									<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+									 aria-expanded="false">@localizer["Account"]</a>
+									<ul class="dropdown-menu">
+										@if(User.Identity.Name == null)
+										{
+											<li class="nav-item"><a class="nav-link" href="/User/Login">@localizer["Login"]</a></li>
+											<li class="nav-item"><a class="nav-link" href="/User/Register">@localizer["Register"]</a></li>
+										}
+										else
+										{
+											<li class="nav-item"><a class="nav-link" href="/User/Profile">@localizer["Profile"]</a></li>
+											@if(User.Identity.Name.Equals("Admin")){
+												<li class="nav-item"><a class="nav-link" href="/User/AdminPanel">@localizer["Admin panel"]</a></li>
+											}
+											<li class="nav-item"><a class="nav-link" href="/User/Logout">@localizer["Logout"]</a></li>
+										}
+
+									</ul>
+								</li>
+								
+							</ul>
+							<!-- cart i search -->
+							<ul class="nav navbar-nav navbar-right">
+								<li class="nav-item">
+								</li>
+								<li class="nav-item">
+									<button class="search" style="padding-right:15px"><a href="/User/Cart" class="cart"><span class="ti-bag"></span></a></button>
+									<button class="search"><span class="lnr lnr-magnifier" id="search"></span></button>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+			<div class="search_input" id="search_input_box">
+			<div class="container">
+				<form class="d-flex justify-content-between" action="/Product/Index">
+					<input type="text" autocomplete="off" class="form-control" name = "searchInput" id="searchInput" placeholder="@localizer["Search Here"]">
+					<button type="submit" class="btn"></button>
+					<span class="lnr lnr-cross" id="close_search" title="Close Search"></span>
+				</form>
+			</div>
+			</div>
+		</header>
+		<!-- END Header Area -->
+
+			@RenderBody()
+
+		<!-- start footer Area -->
+		<footer class="footer-area section_gap">
+			<div class="container">
+			<div class="row">
+				<div class="col-lg-9  col-md-6 col-sm-6">
+					<div class="single-footer-widget">
+						<h6>@localizer["About Us"]</h6>
+						<p style="color: white">
+							@localizer["Auto point is a new site focusing on selling auto parts."]
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="single-footer-widget">
+						<h6>@localizer["Follow Us"]</h6>
+						<p style = "color:white">@localizer["Let us be social"]</p>
+						<div class="footer-social d-flex align-items-center">
+							<a href="https://www.facebook.com/samuil.dobrinski" target="_blank"><i class="fa fa-facebook"></i></a>
+							<a href="https://twitter.com/DobrinskiSamuil" target="_blank"><i class="fa fa-twitter"></i></a>
+							<a href="https://www.instagram.com/samuil._d" target="_blank"><i class="fa fa-instagram"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</footer>
+		<!-- End footer Area -->
+		<!-- Render JS files -->
+
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+			integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+			crossorigin="anonymous"></script>
+
+			<script src="~/js/vendor/jquery-2.2.4.min.js"></script>
+			<script src="~/js/vendor/bootstrap.min.js"></script>
+			<script src="~/js/vendor/popper.min.js"></script>
+						 
+			<script src="~/js/jquery.ajaxchimp.min.js"></script>
+			<script src="~/js/jquery.nice-select.min.js"></script>
+			<script src="~/js/jquery.sticky.js"></script>
+			<script src="~/js/jquery.magnific-popup.min.js"></script>
+						 
+			<script src="~/js/owl.carousel.min.js"></script>
+			<script src="~/js/parallax.min.js"></script>
+			<script src="~/js/ion.rangeSlider.js"></script>
+			<script src="~/js/nouislider.min.js"></script>
+
+			<!--gmaps Js-->
+			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+			<script src="~/js/gmaps.min.js"></script>
+			<script src="~/js/main.js"></script>
+    </body>
+</html>

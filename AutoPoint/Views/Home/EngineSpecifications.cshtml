@@ -1,0 +1,137 @@
+﻿@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer localizer
+@{
+	ViewBag.Title = "Engin specs";
+	Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+@model AutoPoint.ViewModel.HomeVM.EngineSpecsVM
+
+<!-- Start Banner Area -->
+<section class="banner-area organic-breadcrumb">
+	<div class="container">
+		<div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+			<div class="col-first">
+				<h1>@localizer["Engine specifications"]</h1>
+				<nav class="d-flex align-items-center">
+					<a href="/Home/Index">@localizer["Home"]<span class="lnr lnr-arrow-right"></span></a>
+					<a href="/Home/EngineSpecifications">@localizer["Engine specifications"]</a>
+				</nav>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- End Banner Area -->
+<!--================Login Box Area =================-->
+<section class="login_box_area section_gap">
+	<div class="container">
+		
+		<div class="row">
+			<div class="col-lg-12">
+				@if(Model == null || Model.data == null || Model.data.Count <= 0)
+				{
+					<div class="login_form_inner section_gap_bottom">
+						<h3>@localizer["Get specs about specific cars engine"]</h3>
+						<p>@localizer["This function handles only engines made in 2020 year of the listed makes"] : </p>
+						<p>Mazda, Mercedes, Toyota, Ford, Volkswagen, Fiat, Kia, Hyundai, Audi, BMW, Honda, Volvo, Chevrolet.</p>
+						<form class="row login_form" action="/Home/EngineSpecifications" novalidate="novalidate">
+
+							@if(Model != null && Model.make != null)
+							{
+								<div class="col-md-12 form-group input-control">
+									<input type="text" autocomplete="off" class="form-control" name="make" value="@Model.make"  placeholder="@localizer["make"]" onfocus="this.placeholder = ''" onblur="this.placeholder = '@localizer["make"]'">
+								</div>
+							}
+							else
+							{
+								<div class="col-md-12 form-group input-control">
+									<input type="text" autocomplete="off" class="form-control" name="make"  placeholder="@localizer["make"]" onfocus="this.placeholder = ''" onblur="this.placeholder = '@localizer["make"]'">
+								</div>	
+							}
+
+							@if(Model != null && Model.model != null)
+							{
+								<div class="col-md-12 form-group input-control">
+									<input type="text" autocomplete="off" class="form-control" name="model" value="@Model.model" placeholder="@localizer["model"]" onfocus="this.placeholder = ''" onblur="this.placeholder = '@localizer["model"]'">
+								</div>
+							}
+							else
+							{
+								<div class="col-md-12 form-group input-control">
+									<input type="text" autocomplete="off" class="form-control" name="model" placeholder="@localizer["model"]" onfocus="this.placeholder = ''" onblur="this.placeholder = '@localizer["model"]'">
+								</div>	
+							}
+
+							<div class="col-md-12 form-group">
+							</div>
+
+							<div class="col-md-12 form-group">
+								<button type="submit" value="submit" class="primary-btn">@localizer["Search"]</button>
+							</div>
+							@if (Model != null && Model.error != null)
+							{
+								<div class="col-md-12 form-group">
+									<p style="color:red;">@Model.error</p>
+								</div>
+							}
+						</form>
+					</div>
+				}
+				else
+				{
+					<div class="login_form_inner section_gap_bottom">
+						<p>@localizer["Do you want to"] <a href="/Home/EngineSpecifications">@localizer["try again"]</a>?</p>
+						<ol class="ordered-list">
+							@foreach (var item in Model.data)
+							{
+								<li>
+									<center><span><strong><bold>@localizer["Engine / Trim ID:"] @item.id</bold></strong></span></center>
+									<ol class="ordered-list-alpha" style="padding-left:0px">
+										<li>
+											<span>@localizer["Engine type:"] @item.engine_type</span>
+										</li>
+										<li>
+											<span>@localizer["Fuel type:"] @item.fuel_type</span>
+										</li>
+										<li>
+											<span>@localizer["Cylindes:"] @item.cylinders</span>
+										</li>
+										<li>
+											<span>@localizer["Horsepower(HP):"] @item.horsepower_hp</span>
+										</li>
+										<li>
+											<span>@localizer["Horsepower(RPM):"] @item.horsepower_rpm</span>
+										</li>
+										<li>
+											<span>@localizer["Torque(LBS):"] @item.torque_ft_lbs</span>
+										</li>
+										<li>
+											<span>@localizer["Torque(RPM):"] @item.torque_rpm</span>
+										</li>
+										<li>
+											<span>@localizer["Valves:"] @item.valves</span>
+										</li>
+										<li>
+											<span>@localizer["Valve timing:"] @item.valve_timing</span>
+										</li>
+										<li>
+											<span>@localizer["Cam type:"] @item.cam_type</span>
+										</li>
+										<li>
+											<span>@localizer["Drive type:"] @item.drive_type</span>
+										</li>
+										<li>
+											<span>@localizer["Transmission:"] @item.transmission</span>
+										</li>
+
+									</ol>
+								</li>
+							}
+                            
+                        </ol>
+					</div>
+				}
+				
+			</div>
+		</div>
+	</div>
+</section>

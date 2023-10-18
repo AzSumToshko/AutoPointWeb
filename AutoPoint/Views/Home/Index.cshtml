@@ -1,0 +1,146 @@
+﻿@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer localizer
+@{
+	ViewBag.Title = "AutoPoint";
+	Layout = "/Views/Shared/_Layout.cshtml";
+}
+	<!-- start banner Area -->
+	<section class="banner-area">
+		<div class="container">
+			<div class="row fullscreen align-items-center justify-content-start">
+				<div class="col-lg-12">
+						<!-- single-slide -->
+						<div class="row single-slide">
+							<div class="col-lg-5">
+								<div class="banner-content">
+									<h1>@localizer["New APP"] <br>@localizer["Comming soon!"]</h1>
+									<p>@localizer["Coming description"]</p>
+								</div>
+							</div>
+							<div class="col-lg-7">
+								<div class="banner-img">
+								<img class="img-fluid" src="~/img/banner/banner-img.png" alt="">
+								</div>
+							</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End banner Area -->
+
+	<!-- start features Area -->
+	<section class="features-area section_gap">
+		<div class="container">
+			<div class="row features-inner">
+				<!-- single features -->
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="single-features">
+						<div class="f-icon">
+						<img src="~/img/features/f-icon1.png" alt="">
+						</div>
+						<h6>@localizer["Free Delivery"]</h6>
+						<p>@localizer["Free Shipping on all order"]</p>
+					</div>
+				</div>
+				<!-- single features -->
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="single-features">
+						<div class="f-icon">
+							<img src="~/img/features/f-icon2.png" alt="">
+						</div>
+						<h6>@localizer["Return Policy"]</h6>
+						<p>@localizer["Unused items can be returned"]</p>
+					</div>
+				</div>
+				<!-- single features -->
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="single-features">
+						<div class="f-icon">
+						<img src="~/img/features/f-icon3.png" alt="">
+						</div>
+						<h6>@localizer["24/7 Support"]</h6>
+						<p>@localizer["Live support anytime anywhere"]</p>
+					</div>
+				</div>
+				<!-- single features -->
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="single-features">
+						<div class="f-icon">
+						<img src="~/img/features/f-icon4.png" alt="">
+						</div>
+						<h6>@localizer["Secure Payment"]</h6>
+						<p>@localizer["The most secured payments"]</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end features Area -->
+
+	<!-- Start category Area -->
+	<section class="category-area">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-8 col-md-12">
+					<div class="row">
+						<div class="col-lg-8 col-md-8">
+							<div class="single-deal">
+								<div class="overlay"></div>
+								<img class="img-fluid w-100" src="~/img/category/c1.png" alt="">
+								<a href="/Product/Index?category=Engine parts">
+									<div class="deal-details">
+										<h6 class="deal-title">@localizer["Engine parts"]</h6>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4">
+							<div class="single-deal">
+								<div class="overlay"></div>
+								<img class="img-fluid w-100" src="~/img/category/exhaust.jpg" alt="">
+								<a href="/Product/Index?category=Exhaust system">
+									<div class="deal-details">
+										<h6 class="deal-title">@localizer["Exhaust systems"]</h6>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4">
+							<div class="single-deal">
+								<div class="overlay"></div>
+								<img class="img-fluid w-100" src="~/img/category/gear.jpg" alt="">
+								<a href="/Product/Index?category=Gear boxes">
+									<div class="deal-details">
+										<h6 class="deal-title">@localizer["Gear boxes"]</h6>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-lg-8 col-md-8">
+							<div class="single-deal">
+								<div class="overlay"></div>
+								<img class="img-fluid w-100" src="~/img/category/interior.jpg" alt="">
+								<a href="/Product/Index?category=Car interior">
+									<div class="deal-details">
+										<h6 class="deal-title">@localizer["Car Interior"]</h6>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="single-deal">
+						<div class="overlay"></div>
+						<img class="img-fluid w-100" src="~/img/category/c5.png" alt="">
+						<a href="/Product/Index?category=Race chips">
+							<div class="deal-details">
+								<h6 class="deal-title">@localizer["Race chips"]</h6>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End category Area -->

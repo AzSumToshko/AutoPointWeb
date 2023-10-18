@@ -1,0 +1,92 @@
+﻿@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer localizer
+@{
+    ViewBag.Title = "Profile";
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+@model AutoPoint.ViewModel.UserVM.ProfileVM
+
+<section class="banner-area organic-breadcrumb">
+	<div class="container">
+		<div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+			<div class="col-first">
+				<h1>@localizer["Profile"]</h1>
+				<nav class="d-flex align-items-center">
+					<a href="index.html">@localizer["Home"]<span class="lnr lnr-arrow-right"></span></a>
+					<a href="#">@localizer["Account"]</span></a>
+				</nav>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="section_gap_bottom section_gap_top">
+    <center>
+<div class="col-md-8">
+           <div class="white_shd full margin_bottom_30">
+              <div class="full graph_head">
+                 <div class="heading1 margin_0">
+                    <h2>@localizer["User profile"]</h2>
+                 </div>
+              </div>
+              <div class="full price_table padding_infor_info">
+                 <div class="row">
+                    <!-- user profile section --> 
+                    <!-- profile image -->
+                    <div class="col-lg-12">
+                       <div class="full dis_flex center_text">
+
+                          <div>
+                             <div>
+                                <h3>@Model.fullName</h3>
+                                <ul>
+                                   <li><i class="fa fa-envelope-o"></i> : @Model.email</li>
+                                   <li><i class="fa fa-address-card"></i> : @Model.address</li>
+                                   <li><i class="fa fa-pencil"></i> : <a class="genric-btn primary small" href="/User/EditProfile?id=@Model.userID">@localizer["edit"]</a></li>
+                                </ul>
+                             </div>
+                          </div>
+                       </div>
+                @if(Model.orders.Count > 0)
+                {
+                    <!-- profile contant section -->
+                    <div style="overflow-x:auto;">
+           <div class="full inner_elements margin_top_30">
+            <div class="progress-table">
+
+                
+            <div class="table-head">
+			<div class="serial"></div>
+			<div class="country">@localizer["Total"]</div>
+			<div class="visit">@localizer["Products Count"]</div>
+			<div class="percentage">@localizer["Actions"]</div>
+			</div>
+
+			@foreach (var item in Model.orders)
+			{
+				<div class="table-row">
+				<div class="serial">@item.ID</div>
+				<div class="country">@item.total BGN</div>
+				<div class="visit">@item.productsCount</div>
+				<div class="percentage"><a href="/Order/Confirmation?id=@item.ID" class="genric-btn primary circle arrow">@localizer["Info"]<span class="lnr lnr-arrow-right"></span></a></div>
+			    </div>
+			}
+		            </div>
+                       </div></div>
+                       <!-- end user profile section -->
+                }
+                else
+                {
+                    <p> @localizer["This user does not have any orders. If you want to make one check out our products"] <a href="/Product/Index">@localizer["here"]</a>.</p>
+                }
+           
+                    </div>
+                 </div>
+              </div>
+           </div>
+           <div class="col-md-2"></div>
+        </div>
+    </div>
+    </center>
+
+</section>
+

@@ -1,0 +1,99 @@
+﻿@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer localizer
+@{
+    ViewBag.Title = "Contact";
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Start Banner Area -->
+	<section class="banner-area organic-breadcrumb">
+		<div class="container">
+			<div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+				<div class="col-first">
+					<h1>@localizer["Contact Us"]</h1>
+					<nav class="d-flex align-items-center">
+						<a href="/Home/Index">@localizer["Home"]<span class="lnr lnr-arrow-right"></span></a>
+						<a href="/Email/Contact">@localizer["Contact"]</a>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Banner Area -->
+
+	@if(ViewBag.EmailSent != null){
+		<div class="alert alert-primary alert-dismissible fade show" style="margin-left:150px; margin-right:150px; margin-top:75px;" role="alert">
+            <i class="fa fa-exclamation-circle me-2"></i>@localizer["Email sent successfully!"]
+        </div>
+	}
+
+	<!--================Contact Area =================-->
+	<section class="contact_area section_gap_bottom section_gap_top">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3">
+					<div class="contact_info">
+						<div class="info_item">
+							<i class="lnr lnr-home"></i>
+							<h6>@localizer["Plovdiv, Bulgaria"]</h6>
+							<p>@localizer["Ul. Bitolya 24B"]</p>
+						</div>
+						<div class="info_item">
+							<i class="lnr lnr-phone-handset"></i>
+							<h6>(+359) 889 5361 85</h6>
+							<p>@localizer["Mon to Fri 9am to 6pm"]</p>
+						</div>
+						<div class="info_item">
+							<i class="lnr lnr-envelope"></i>
+							<h6>AutoPoint2023@outlook.com</h6>
+							<p>@localizer["Send us your query anytime!"]</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-9">
+					<form class="row contact_form" action="/Email/SendEmail" method="post" id="contactForm" novalidate="novalidate">
+
+						<input type="hidden" id="isNameValid" value=""/>
+						<input type="hidden" id="isEmailValid" value=""/>
+						<input type="hidden" id="isSubjectValid" value=""/>
+						<input type="hidden" id="isMessageValid" value=""/>
+
+						<div class="col-md-6">
+							<div class="form-group input-control">
+								<input type="text" class="form-control" id="name" name="model.name" placeholder="@localizer["Enter your name"]" onfocus="this.placeholder = ''" onblur="this.placeholder = '@localizer["Enter your name"]'">
+								<div class="error"></div>
+							</div>
+							<div class="form-group input-control">
+								<input type="email" class="form-control" id="email" name="model.email" placeholder="@localizer["Enter email address"]" onfocus="this.placeholder = ''" onblur="this.placeholder = '@localizer["Enter email address"]'">
+								<div class="error"></div>
+							</div>
+							<div class="form-group input-control">
+								<input type="text" class="form-control" id="subject" name="model.subject" placeholder="@localizer["Enter Subject"]" onfocus="this.placeholder = ''" onblur="this.placeholder = '@localizer["Enter Subject"]'">
+								<div class="error"></div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group input-control">
+								<textarea class="form-control" name="model.message" id="message" rows="1" placeholder="@localizer["Enter Message"]" onfocus="this.placeholder = ''" onblur="this.placeholder = '@localizer["Enter Message"]'"></textarea>
+								<div class="error"></div>
+							</div>
+						</div>
+						<div class="col-md-12 text-right">
+							<button type="submit" value="submit" class="primary-btn">@localizer["Send Message"]</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section_gap_bottom">
+		<center>
+			<div style="overflow-x:auto;">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d750755.6096671602!2d22.25273759999999!3d42.6901866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa8515715bbb45%3A0x50c9edc7ad6f09f2!2z0KPQnNCR0JDQm9Ch0Jwg4oCe0J0uINCYLiDQn9C40YDQvtCz0L7QsuKAnQ!5e0!3m2!1sbg!2sbg!4v1669016472443!5m2!1sbg!2sbg" 
+		width="1200" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>	
+		</center>
+	</section>
+	<!--================Contact Area =================-->
+
+	<script src="~/js/validations/contactValidation.js"></script>

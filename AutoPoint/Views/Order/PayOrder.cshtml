@@ -1,0 +1,137 @@
+﻿@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer localizer
+@{
+    ViewBag.Title = "Checkout";
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+@model AutoPoint.ViewModel.OrderVM.CreateOrderVM
+
+<!-- Start Banner Area -->
+    <section class="banner-area organic-breadcrumb">
+        <div class="container">
+            <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+                <div class="col-first">
+                    <h1>Checkout</h1>
+                    <nav class="d-flex align-items-center">
+                        <a href="/Home/Index">@localizer["Home"]<span class="lnr lnr-arrow-right"></span></a>
+                        <a href="/User/Cart">@localizer["Cart"]<span class="lnr lnr-arrow-right"></span></a>
+                        <a href="/Order/Checkout">@localizer["Checkout"]</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Banner Area -->
+
+    <!--================Checkout Area =================-->
+    <section class="checkout_area section_gap">
+    <div class="container">
+            <div class="billing_details">
+                <form id="checkout-form" action="/Order/CreateOrder" novalidate="novalidate">
+
+                    <input type="hidden" name="model.deliveryType" value="@Model.deliveryType"/>
+                    <input type="hidden" name="model.orderProductsIDs" value="@Model.orderProductsIDs"/>
+                    <input type="hidden" name="model.productQuantities" value="@Model.productQuantities"/>
+
+                    <input type="hidden" id="total" name="model.total" value="@Model.total.ToString("0.00")"/>
+
+                    <input type="hidden" name="model.subtotal" value="@Model.subtotal"/>
+                    <input type="hidden" name="model.firstName" value="@Model.firstName"/>
+                    <input type="hidden" name="model.lastName" value="@Model.lastName"/>
+                    <input type="hidden" name="model.companyName" value="@Model.companyName"/>
+                    <input type="hidden" name="model.phoneNumber" value="@Model.phoneNumber"/>
+                    <input type="hidden" name="model.email" value="@Model.email"/>
+                    <input type="hidden" name="model.addressOne" value="@Model.addressOne"/>
+                    <input type="hidden" name="model.addressTwo" value="@Model.addressTwo"/>
+                    <input type="hidden" name="model.city" value="@Model.city"/>
+                    <input type="hidden" name="model.postcode" value="@Model.postcode"/>
+                    <input type="hidden" name="model.details" value="@Model.details"/>
+
+                    <input type="hidden" id="payment-method" name="model.paymentMethod" value="cash"/>
+                    <input type="hidden" id="total-price" value="@Model.total"/>
+
+                <center>
+                    <div class="col-lg-5">
+                        <div class="order_box">
+                            <h2>@localizer["Your Order"]</h2>
+                                <ul class="list list_2">
+                                    <li><a href="#">Subtotal <span>@Model.subtotal BGN</span></a></li>
+                                    @if (Model.deliveryType.Equals("Free"))
+                                    {
+                                        <li><a href="#" >@localizer["Shipping"] <span>@localizer["Flat rate:"] 0.00 BGN</span></a></li>
+                                    }else{
+                                        <li><a href="#">@localizer["Shipping"] <span>@localizer["Flat rate:"] 12.00 BGN</span></a></li>
+                                    }
+                                    
+                                    <li><a href="#">@localizer["Total"] <span>@Model.total BGN</span></a></li>
+                                </ul>
+                            <br/>
+                            <center><button id="submit-form-button" type="submit" class="primary-btn">@localizer["Pay on Delivery"]</button></center>
+                            <br/>
+                            <div class="payment_item">
+                                <div id="smart-button-container">
+                                    <div style="text-align: center;">
+                                        <div id="paypal-button-container"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </center>
+                </form>
+            </div>
+        </div>
+    </section>
+
+<script src="~/js/validations/checkoutValidation.js"></script>
+
+<script src="https://www.paypal.com/sdk/js?client-id=AS_AyVpsjS_u2fngIK2MupmY7OXlt88xpVCvOi3zN8j0olpPgBssFUi_walXEufzq40W1FocU4HvFdgn&enable-funding=venmo&currency=EUR" data-sdk-integration-source="button-factory"></script>
+<script>
+
+    function initPayPalButton() {
+        var total = (parseFloat(document.getElementById("total-price").value.replace(",","."))/2).toFixed(2);
+
+        paypal.Buttons({
+                style: {
+                  shape: 'rect',
+                  color: 'gold',
+                  layout: 'vertical',
+                  label: 'paypal',
+
+                },
+
+
+                createOrder: function(data, actions) {
+                    return actions.order.create({
+                    purchase_units: [{"amount":{"currency_code":"EUR","value":total}}]
+                    });
+                },
+
+                onApprove: function(data, actions) {
+                  return actions.order.capture().then(function(orderData) {
+
+                    // Full available details
+                    console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+
+                    // Show a success message within this page, e.g.
+                    const element = document.getElementById('paypal-button-container');
+                    element.innerHTML = '';
+                    element.innerHTML = '<h3>Thank you for your payment!</h3>';
+
+                   
+                    document.getElementById("payment-method").value="Card";
+                    document.getElementById("checkout-form").submit();
+
+                  });
+                },
+
+                onError: function(err) {
+                  console.log(err);
+                }
+            }).render('#paypal-button-container');
+      
+    }
+    initPayPalButton();
+</script>
+    <!--================End Checkout Area =================-->

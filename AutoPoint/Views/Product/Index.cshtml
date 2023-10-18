@@ -1,0 +1,124 @@
+﻿@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer localizer
+@{
+    ViewBag.Title = "Products";
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+@model AutoPoint.ViewModel.ProductVM.IndexVM
+
+<!-- Start Banner Area -->
+	<section class="banner-area organic-breadcrumb">
+		<div class="container">
+			<div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+				<div class="col-first">
+					<h1>@localizer["Products"]</h1>
+					<nav class="d-flex align-items-center">
+
+						<a href="/Home/Index">@localizer["Home"]<span class="lnr lnr-arrow-right"></span></a>
+						<a href="/Product/Index">@localizer["Products"]</a>
+
+						@if (@Model.categoryType != null)
+						{
+							<a href="/Product/Index?category=@Model.categoryType"><span class="lnr lnr-arrow-right"></span>@Model.categoryType</a>
+						}
+
+						@if (@Model.searchInput != null)
+						{
+							<a href="/Product/Index?searchInput=@Model.searchInput&category=@Model.categoryType"><span class="lnr lnr-arrow-right"></span>@Model.searchInput</a>
+						}
+
+					</nav>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Banner Area -->
+	<section class = "section_gap_bottom section_gap_top">
+		<div class="container ">
+				<div class="row">
+					<div class="col-xl-3 col-lg-4 col-md-5">
+						<div class="sidebar-categories">
+					<div class="head" style="background: rgb(253,126,20);background: radial-gradient(circle, rgba(253,126,20,1) 53%, rgba(255,193,7,1) 100%);">
+						@localizer["Browse Categories"]
+					</div>
+							<ul class="main-categories">
+								<li class="main-nav-list child"><a href="/Product/Index">@localizer["All"]<span class="number">(@Model.allItemsCount)</span></a></li>
+								<li class="main-nav-list child"><a href="/Product/Index?category=Race chips">@localizer["Race Chips"]<span class="number">(@Model.raceChipsCount)</span></a></li>
+								<li class="main-nav-list child"><a href="/Product/Index?category=Car interior">@localizer["Car interior"]<span class="number">(@Model.carInteriorCount)</span></a></li>
+								<li class="main-nav-list child"><a href="/Product/Index?category=Exhaust system">@localizer["Exhaust Systems"]<span class="number">(@Model.ExhaustSystemsCount)</span></a></li>
+								<li class="main-nav-list child"><a href="/Product/Index?category=Gear boxes">@localizer["Gear boxes"]<span class="number">(@Model.gearBoxesCount)</span></a></li>
+								<li class="main-nav-list child"><a href="/Product/Index?category=Engine parts">@localizer["Engine parts"]<span class="number">(@Model.enginePartsCount)</span></a></li>
+							</ul>
+						</div>
+
+				<div class="sidebar-filter mt-50">
+					<div class="top-filter-head" style="background: rgb(253,126,20);background: radial-gradient(circle, rgba(253,126,20,1) 53%, rgba(255,193,7,1) 100%);">
+						@localizer["Product Filters"]
+					</div>
+					<div class="common-filter">
+						<div class="head"><center style="font-size:20px">@localizer["Price"]</center></div>
+						<div class="price-range-area">
+
+							<form action="/Product/Index">
+								<input type="hidden" name="category" id="category" value="@Model.categoryType"/>
+								<center>
+									<input type="number" min="0" max="9999" name="minSortingValue" id="minSortingValue" value="@Model.minSortingValue"placeholder="@localizer["min"]" />
+									-
+									<input type="number" min="0" max="9999" name="maxSortingValue" id="maxSortingValue" value="@Model.maxSortingValue" placeholder="@localizer["max"]" />
+
+									<div style="margin-top : 10px">
+										<input class="genric-btn primary circle" type="submit" value="@localizer["submit"]" />
+									</div>
+									
+								</center>
+							</form>
+
+						</div>
+					</div>
+				</div>
+
+						
+					</div>
+					<div class="col-xl-9 col-lg-8 col-md-7">
+						<!-- Start Filter Bar -->
+				<div style="padding-bottom: 60px;background: rgb(253,126,20);background: radial-gradient(circle, rgba(253,126,20,1) 53%, rgba(255,193,7,1) 100%);">
+						</div>
+						<!-- End Filter Bar -->
+						<!-- Start Best Seller -->
+						<section class="lattest-product-area pb-40 category-list">
+							<div class="row">
+
+								@foreach (var item in Model.products)
+								{
+									<!-- single product -->
+								<div class="col-lg-4 col-md-6">
+									<div class="single-product">
+										<img style="" class="img-fluid" src="data:image/png;base64,@(Html.Raw(Convert.ToBase64String(item.image)))" alt="~/img/product/default_photo.png">
+										<div class="product-details">
+											<h6>@item.name</h6>
+											<div class="price">
+												<h6>@item.price BGN</h6>
+											</div>
+											<div class="prd-bottom">
+		
+												<a href="/Product/AddToCart?productId=@item.ID&actionName=Index&controlerName=Product&productQuantity=1" class="social-info">
+													<span class="ti-bag"></span>
+													<p class="hover-text">@localizer["add to bag"]</p>
+												</a>
+												<a href="/Product/Details?id=@item.ID" class="social-info">
+													<span class="lnr lnr-move"></span>
+													<p class="hover-text">@localizer["view more"]</p>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								}
+							</div>
+						</section>
+						<!-- End Best Seller -->
+					</div>
+				</div>
+			</div>
+
+	</section>
+	

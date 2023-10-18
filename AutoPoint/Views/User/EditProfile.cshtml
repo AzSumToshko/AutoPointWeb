@@ -1,0 +1,76 @@
+﻿@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer localizer
+@{
+	ViewBag.Title = "EditProfile";
+	Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+@model AutoPoint.ViewModel.UserVM.EditProfileVM
+
+<!-- Start Banner Area -->
+<section class="banner-area organic-breadcrumb">
+	<div class="container">
+		<div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+			<div class="col-first">
+				<h1>@localizer["Edit Profile"]</h1>
+				<nav class="d-flex align-items-center">
+					<a href="/Home/Index">@localizer["Home"]<span class="lnr lnr-arrow-right"></span></a>
+					<a href="/User/Profile">@localizer["Profile"]<span class="lnr lnr-arrow-right"></span></a>
+					<a href="/User/EditProfile?id=@Model.userID">@localizer["Edit Profile"]</a>
+				</nav>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- End Banner Area -->
+<!--================Login Box Area =================-->
+<section class="login_box_area section_gap">
+	<div class="container">
+		
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="login_form_inner">
+					<h3>@localizer["Edit Information"]</h3>
+					<form class="row login_form" action="/User/EditProfile" method="post" id="contactForm" novalidate="novalidate">
+						<input type="hidden" name= "model.user.ID" id="model.id" value="@Model.user.ID" />
+						<input type="hidden" name= "model.user.password" id="model.id" value="@Model.user.password" />
+						<input type="hidden" name= "model.user.isAdmin" id="model.id" value="@Model.user.isAdmin" />
+						<input type="hidden" name= "model.userID" value="@Model.userID" />
+
+
+						<input type="hidden" id="isFirstNameValid" value=""/>
+						<input type="hidden" id="isLastNameValid" value=""/>
+						<input type="hidden" id="isAddressValid" value=""/>
+						<input type="hidden" id="isEmailValid" value=""/>
+
+						<div class="col-md-12 form-group input-control">
+							<input type="text" autocomplete="off" class="form-control" id="firstName" name="model.user.firstName" value="@Model.user.firstName" placeholder="@localizer["First name"]" onfocus="this.placeholder = ''" onblur="this.placeholder = '@localizer["First name"]'">
+							<div class="error"></div>
+						</div>
+						<div class="col-md-12 form-group input-control">
+							<input type="text" autocomplete="off" class="form-control" id="lastName" name="model.user.lastName" value="@Model.user.lastName"  placeholder="@localizer["Last name"]" onfocus="this.placeholder = ''" onblur="this.placeholder = '@localizer["Last name"]'">
+							<div class="error"></div>
+						</div>
+						<div class="col-md-12 form-group input-control">
+							<input type="text" autocomplete="off" class="form-control" id="address" name="model.user.address" value="@Model.user.address" placeholder="@localizer["address"]" onfocus="this.placeholder = ''" onblur="this.placeholder = '@localizer["address"]'">
+							<div class="error"></div>
+						</div>
+						<div class="col-md-12 form-group input-control">
+							<input type="text" autocomplete="off" class="form-control" id="email" name="model.user.email" value="@Model.user.email" placeholder="@localizer["Email"]" onfocus="this.placeholder = ''" onblur="this.placeholder = '@localizer["Email"]'">
+							<div class="error"></div>
+						</div>
+						<div class="col-md-12 form-group">
+						</div>
+						<div class="col-md-12 form-group">
+							<a href="/User/Profile" class="primary-btn" style="color:white; text-decoration:none;">@localizer["Back"]</a>
+							<button type="submit" value="submit" class="primary-btn">@localizer["Update"]</button>
+						</div>
+					</form>
+				</div>
+				</div>
+		</div>
+		
+	</div>
+</section>
+<!--================End Login Box Area =================-->
+
+<script src="~/js/validations/editProfileValidation.js"></script>

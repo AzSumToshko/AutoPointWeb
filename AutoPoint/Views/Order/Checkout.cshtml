@@ -1,0 +1,132 @@
+﻿@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer localizer
+@{
+    ViewBag.Title = "Checkout";
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+@model AutoPoint.ViewModel.OrderVM.CreateOrderVM
+
+<!-- Start Banner Area -->
+    <section class="banner-area organic-breadcrumb">
+        <div class="container">
+            <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+                <div class="col-first">
+                    <h1>@localizer["Checkout"]</h1>
+                    <nav class="d-flex align-items-center">
+                        <a href="/Home/Index">@localizer["Home"]<span class="lnr lnr-arrow-right"></span></a>
+                        <a href="/User/Cart">@localizer["Cart"]<span class="lnr lnr-arrow-right"></span></a>
+                        <a href="/Order/Checkout">@localizer["Checkout"]</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Banner Area -->
+
+    <!--================Checkout Area =================-->
+    <section class="checkout_area section_gap">
+    <div class="container">
+            <div class="billing_details">
+                <form id="checkout-form" action="/Order/Checkout" method="post" novalidate="novalidate">
+
+                    <input type="hidden" name="model.deliveryType" value="@Model.deliveryType"/>
+                    <input type="hidden" name="model.orderProductsIDs" value="@Model.orderProductsIDs"/>
+                    <input type="hidden" name="model.productQuantities" value="@Model.productQuantities"/>
+                    <input type="hidden" name="model.total" value="@Model.total"/>
+                    <input type="hidden" name="model.subtotal" value="@Model.subtotal"/>
+                    <input type="hidden" id="payment-method" name="model.paymentMethod" value="cash"/>
+                    <input type="hidden" id="total-price" value="@Model.total"/>
+
+                    <input type="hidden" id="isFirstNameValid" value=""/>
+                    <input type="hidden" id="isLastNameValid" value=""/>
+                    <input type="hidden" id="isEmailValid" value=""/>
+                    <input type="hidden" id="isAddressValid" value=""/>
+                    <input type="hidden" id="isCityValid" value=""/>
+                    <input type="hidden" id="isZipValid" value=""/>
+                    <input type="hidden" id="isPhoneNumberValid" value=""/>
+
+                <div class="row">
+                    <div class="col-lg-7">
+                        <center><h3>@localizer["Billing Details"]</h3></center>
+                        
+                            <div class="col-md-12 form-group">
+                                <input type="text"  class="form-control" id="firstName" name="model.firstName" placeholder="@localizer["First Name*"]">
+                                <div class="error"></div>
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <input type="text"  class="form-control" id="lastName" name="model.lastName" placeholder="@localizer["Last Name*"]">
+                                <div class="error"></div>
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <input type="text" class="form-control" name="model.companyName" placeholder="@localizer["Company name"]">
+                                <div class="error"></div>
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <input type="text"  class="form-control" id="phoneNumber" name="model.phoneNumber" placeholder="@localizer["Phone Number*"]">
+                                <div class="error"></div>
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <input type="text"  class="form-control" id="email" name="model.email" placeholder="@localizer["Email Address*"]">
+                                <div class="error"></div>
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <input type="text"  class="form-control" id="address" name="model.addressOne" placeholder="@localizer["Address line 01*"]">
+                                <div class="error"></div>
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <input type="text" class="form-control" name="model.addressTwo" placeholder="@localizer["Address line 02"]">
+                                <div class="error"></div>
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <input type="text"  class="form-control" id="city" name="model.city" placeholder="@localizer["Town/City*"]">
+                                <div class="error"></div>
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <input type="text"  class="form-control" id="zip" name="model.postcode" placeholder="@localizer["Postcode/ZIP*"]">
+                                <div class="error"></div>
+                            </div>
+
+                        <div class="col-md-12 form-group">
+                            <br />
+                                <div class="creat_account">
+                                    <center><h3>@localizer["Shipping Details"]</h3></center>
+                                </div>
+                                <textarea class="form-control" name="model.details" id="message" rows="4" placeholder="@localizer["Order Notes"]"></textarea>
+                            </div>
+                        
+                    </div>
+
+                    <div class="col-lg-5">
+                        <div class="order_box">
+                            <h2>@localizer["Your Order"]</h2>
+                                <ul class="list">
+                                    <li><a href="#">@localizer["Product"] <span>@localizer["Total"]</span></a></li>
+                                    @foreach (var item in @Model.orderProducts)
+                                    {
+                                        <li><a href="#">@item.product.name <span class="middle">x @item.Quantity</span> <span class="last">@item.product.price BGN</span></a></li>
+                                    }
+                                </ul>
+                                <ul class="list list_2">
+                                    <li><a href="#">@localizer["Subtotal"] <span>@Model.subtotal BGN</span></a></li>
+                                    @if (Model.deliveryType.Equals("Free"))
+                                    {
+                                        <li><a href="#" >@localizer["Shipping"] <span>@localizer["Flat rate:"] 0.00 BGN</span></a></li>
+                                    }else{
+                                        <li><a href="#">@localizer["Shipping"] <span>@localizer["Flat rate:"] 12.00 BGN</span></a></li>
+                                    }
+                                    
+                                    <li><a href="#">@localizer["Total"] <span>@Model.total BGN</span></a></li>
+                                </ul>
+                            <br/>
+                            <center><button id="submit-form-button" type="submit" class="primary-btn">@localizer["Proceed to payment"]</button></center>
+                        </div>
+                    </div>
+                    
+                </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+<script src="~/js/validations/checkoutValidation.js"></script>
+    <!--================End Checkout Area =================-->

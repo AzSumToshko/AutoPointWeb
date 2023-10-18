@@ -1,0 +1,141 @@
+﻿@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer localizer
+@{
+    ViewBag.Title = "Cart";
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+@model AutoPoint.ViewModel.UserVM.CartVM
+
+<link rel="stylesheet" href="~/css/ArrowsRemove.css">
+<!-- Start Banner Area -->
+    <section class="banner-area organic-breadcrumb">
+        <div class="container">
+            <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+                <div class="col-first">
+                    <h1>@localizer["Shopping Cart"]</h1>
+                    <nav class="d-flex align-items-center">
+                        <a href="/Home/Index">@localizer["Home"]<span class="lnr lnr-arrow-right"></span></a>
+                        <a href="/User/Cart">@localizer["Cart"]</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Banner Area -->
+
+    <!--================Cart Area =================-->
+    <section class="cart_area">
+        <div class="container">
+            <div class="cart_inner">
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">@localizer["Product"]</th>
+                                <th scope="col">@localizer["Quantity"]</th>
+                                <th scope="col"></th>
+                                <th scope="col">@localizer["Price"]</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            @foreach (var item in Model.products)
+                            {
+                                <tr>
+
+                                <td>
+                                    <div class="media">
+                                        <div class="d-flex">
+                                            <img style="width:182; height:102;" src="data:image/png;base64,@(Html.Raw(Convert.ToBase64String(item.product.image)))" alt="~/img/product/default_photo.png">
+                                        </div>
+                                        <div class="media-body">
+                                            <p>@item.product.name</p>
+                                        </div>
+                                    </div>
+                                </td>
+
+                                <td>
+                                    <h5>@item.Quantity</h5>
+                                </td>
+
+                                <td>
+                                    <a href="/Product/RemoveCartItem?productID=@item.product.ID" class="genric-btn danger circle"> @localizer["Remove"]</a>
+                                </td>
+
+                                <td>
+                                    <h5>@item.product.price BGN</h5>
+                                </td>
+                            </tr>
+                            }
+                            
+
+
+                            <tr>
+                                <td>
+                                    <h5>@localizer["Total"]</h5>
+                                </td>
+
+                                <td>
+
+                                </td>
+
+                                <td>
+                                    
+                                </td>
+
+                                <td>
+                                    <h5>@Model.totalPrice BGN</h5>
+                                </td>
+                            </tr>
+
+                            <form action="/Order/Checkout">
+                                <tr class="shipping_area">
+                                    <td>
+                                        <h5>@localizer["Shipping"]</h5>
+                                    </td>
+                                    <td>
+
+                                    </td>
+                                    <td>
+                                        
+                                    </td>
+                                    <td>
+                                        <div class="shipping_box">
+                                            <select class="shipping_select" name="deliveryType", id="deliveryType">
+                                                <option value="" disabled>@localizer["Select Delivery Method"]</option>
+                                                <option value="Free">@localizer["Free Shipping:"] 0 BGN</option>
+                                                <option value="Fast">@localizer["Fast Shipping:"] 12 BGN</option>
+                                            </select>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr class="out_button_area">
+                                    <td>
+
+                                    </td>
+                                    <td>
+
+                                    </td>
+                                    <td>
+
+                                    </td>
+                                    <td>
+                                        <div style="float:right" class="checkout_btn_inner d-flex">
+                                            <a class="gray_btn" href="/Product/Index">@localizer["Return"]</a>
+                                            @if(Model.products.Count >0){
+                                                <button type="submit" class="primary-btn"  href="">@localizer["Proceed to checkout"]</button>
+                                            }else{
+                                                <button disabled type="submit" class="primary-btn"  href="">@localizer["Proceed to checkout"]</button>
+                                            }
+                                            
+                                        </div>
+                                    </td>
+                                </tr>
+                            </form>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--================End Cart Area =================-->
